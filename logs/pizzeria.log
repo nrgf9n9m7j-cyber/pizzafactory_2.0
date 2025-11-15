@@ -1,0 +1,1405 @@
+[2025-11-02 22:21:04,673] WARNING in _internal:  * Debugger is active!
+[2025-11-02 22:21:04,678] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 22:21:20,687] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 22:21:20,688] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 22:21:20,691] INFO in _internal:  * Restarting with stat
+[2025-11-02 22:21:21,095] WARNING in _internal:  * Debugger is active!
+[2025-11-02 22:21:21,099] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 22:24:46,309] INFO in _internal:  * Detected change in 'D:\\Pizzeria 6.0\\pizzafactory\\modules\\hooks\\routes.py', reloading
+[2025-11-02 22:24:46,379] INFO in _internal:  * Restarting with stat
+[2025-11-02 22:24:46,786] WARNING in _internal:  * Debugger is active!
+[2025-11-02 22:24:46,790] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 22:24:56,097] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 22:24:56,098] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 22:24:56,100] INFO in _internal:  * Restarting with stat
+[2025-11-02 22:24:56,493] WARNING in _internal:  * Debugger is active!
+[2025-11-02 22:24:56,497] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 22:25:05,737] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:25:05] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:25:05,810] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:25:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 22:36:45,695] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 22:36:45,696] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 22:36:45,698] INFO in _internal:  * Restarting with stat
+[2025-11-02 22:36:46,127] WARNING in _internal:  * Debugger is active!
+[2025-11-02 22:36:46,133] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 22:36:47,967] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:47] "GET / HTTP/1.1" 200 -
+[2025-11-02 22:36:48,156] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,191] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,191] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,210] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,218] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,223] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 22:36:48,247] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,252] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,257] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,258] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,265] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 22:36:48,265] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,272] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:36:48,279] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 22:36:48,306] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-02 22:36:48,339] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 22:36:58,307] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:36:58] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:37:08,299] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:37:08] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:37:18,329] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:37:18] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:37:28,305] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:37:28] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:37:38,307] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:37:38] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:37:48,306] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:37:48] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:37:58,899] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:37:58] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:38:09,024] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:38:09] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:38:19,272] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:38:19] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:38:29,323] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:38:29] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:38:39,460] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:38:39] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:38:48,486] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:38:48] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 22:38:49,325] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:38:49] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:38:59,327] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:38:59] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:39:09,340] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:39:09] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:39:19,337] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:39:19] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:39:29,454] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:39:29] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:39:39,561] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:39:39] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:39:49,832] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:39:49] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:39:59,945] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:39:59] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:40:10,263] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:40:10] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:40:20,264] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:40:20] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:40:30,316] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:40:30] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:40:40,271] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:40:40] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:40:50,281] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:40:50] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:41:00,294] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:41:00] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:41:10,300] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:41:10] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:41:20,309] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:41:20] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:41:30,317] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:41:30] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:41:40,401] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:41:40] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:41:50,712] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:41:50] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:42:00,943] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:42:00] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:42:11,320] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:42:11] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:42:21,632] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:42:21] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:42:32,025] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:42:32] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:42:42,247] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:42:42] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:42:52,531] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:42:52] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:43:02,757] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:43:02] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:43:13,073] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:43:13] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:43:23,274] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:43:23] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:43:33,625] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:43:33] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:43:44,099] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:43:44] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:43:54,468] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:43:54] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:44:04,764] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:04] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:44:14,963] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:14] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:44:17,666] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 22:44:17,666] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 22:44:17,669] INFO in _internal:  * Restarting with stat
+[2025-11-02 22:44:18,089] WARNING in _internal:  * Debugger is active!
+[2025-11-02 22:44:18,093] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 22:44:19,578] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "GET / HTTP/1.1" 200 -
+[2025-11-02 22:44:19,790] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,857] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,859] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,873] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,895] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 22:44:19,904] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,904] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 22:44:19,914] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 22:44:19,933] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,935] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,937] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,938] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 22:44:19,943] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:19,949] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:19] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:44:20,000] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:20] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-02 22:44:30,015] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:30] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:44:30,299] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:30] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 22:44:30,344] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:30] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:44:40,021] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:40] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:44:40,394] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:40] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:44:50,030] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:50] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:44:50,368] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:44:50] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:45:00,404] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:00] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:45:01,420] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:01] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:45:10,719] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:10] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:45:11,750] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:11] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:45:21,030] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:21] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:45:22,070] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:22] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:45:31,359] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:31] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:45:32,401] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:32] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:45:41,598] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:41] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:45:42,615] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:42] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:45:51,790] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:51] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:45:52,918] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:45:52] "GET /api/clienti/cerca?q=%2B393491234567 HTTP/1.1" 200 -
+[2025-11-02 22:47:08,108] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 22:47:08,108] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 22:47:08,111] INFO in _internal:  * Restarting with stat
+[2025-11-02 22:47:08,508] WARNING in _internal:  * Debugger is active!
+[2025-11-02 22:47:08,512] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 22:47:11,004] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "GET / HTTP/1.1" 200 -
+[2025-11-02 22:47:11,294] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,309] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,323] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 22:47:11,337] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,347] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,367] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,383] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,385] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,387] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,398] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,402] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,404] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,413] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,420] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:47:11,503] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-02 22:47:11,512] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 22:47:21,453] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:21] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:47:21,764] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:21] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:47:31,462] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:31] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:47:31,772] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:31] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:47:42,429] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:42] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:47:43,452] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:43] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:47:52,573] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:52] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:47:53,586] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:47:53] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:48:02,692] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:48:02] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:48:03,706] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:48:03] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:48:12,876] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:48:12] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:48:13,890] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:48:13] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:48:23,073] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:48:23] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:48:24,086] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:48:24] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:48:33,365] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:48:33] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:48:34,379] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:48:34] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:58:26,647] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 22:58:26,647] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 22:58:26,649] INFO in _internal:  * Restarting with stat
+[2025-11-02 22:58:27,028] WARNING in _internal:  * Debugger is active!
+[2025-11-02 22:58:27,031] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 22:58:34,012] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:58:34] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:58:35,095] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:58:35] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:58:44,286] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:58:44] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:58:45,309] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:58:45] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:58:54,477] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:58:54] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:58:55,500] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:58:55] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:59:04,690] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:04] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:59:05,704] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:05] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:59:14,962] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:14] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:59:15,983] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:15] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:59:25,186] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:25] "GET /api/hooks/test HTTP/1.1" 200 -
+[2025-11-02 22:59:26,201] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:26] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 22:59:30,223] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "GET / HTTP/1.1" 200 -
+[2025-11-02 22:59:30,436] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,470] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,513] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,515] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 22:59:30,528] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,536] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 22:59:30,539] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,546] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,547] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,551] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,555] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:30,557] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 22:59:30,566] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 22:59:30,578] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:30] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-02 22:59:54,546] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 22:59:54] "POST /api/hooks/macrodroid HTTP/1.1" 200 -
+[2025-11-02 23:03:50,093] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:03:50,093] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:03:50,096] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:03:50,480] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:03:50,483] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:03:54,097] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:03:54,354] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,356] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,381] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,381] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,384] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,392] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,398] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,405] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,406] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,412] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,419] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,422] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,430] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:03:54,430] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:03:54] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:07:22,652] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:07:22,653] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:07:22,655] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:07:23,062] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:07:23,066] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:07:30,063] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:07:30,312] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,333] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,345] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,359] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,368] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:07:30,381] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:07:30,381] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,383] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,396] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,406] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,410] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:07:30,415] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,422] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:07:30,428] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:07:30] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:09:59,764] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:09:59,765] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:09:59,767] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:10:00,229] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:10:00,235] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:10:01,750] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:01] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:10:02,011] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:10:02,016] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:10:02,026] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,037] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,038] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:10:02,038] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,053] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:10:02,054] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,066] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,066] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,070] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,077] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,080] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,087] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:10:02,103] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:10:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:12:34,311] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:12:34,311] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:12:34,314] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:12:34,704] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:12:34,709] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:12:38,564] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:12:38,779] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:12:38,810] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,823] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,830] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:12:38,836] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,846] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,846] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,856] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:12:38,860] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:12:38,864] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,869] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,875] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,878] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,883] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:12:38,912] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:12:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:19:41,764] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:19:41,765] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:19:41,767] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:19:42,158] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:19:42,161] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:19:46,244] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:19:46,491] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:19:46,510] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:19:46,512] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,526] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,535] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,545] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,546] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,558] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:19:46,560] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,571] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,581] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,581] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:19:46,587] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,587] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:19:46,723] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:19:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:21:15,158] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:21:15,159] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:21:15,160] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:21:15,577] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:21:15,581] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:21:17,266] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:21:17,542] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:21:17,547] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:21:17,548] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:21:17,560] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,563] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,574] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,582] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,593] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,596] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,597] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,598] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,603] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,604] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:21:17,605] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:21:17,750] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:21:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:23:23,384] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:23:23,385] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:23:23,387] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:23:23,803] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:23:23,807] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:23:26,318] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:23:26,585] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:23:26,596] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,607] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,613] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:23:26,615] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:23:26,619] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:23:26,629] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,639] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,649] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,651] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,652] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,652] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,661] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,666] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:23:26,706] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:23:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:25:05,001] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:25:05,001] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:25:05,004] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:25:05,397] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:25:05,401] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:25:07,283] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:25:07,512] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:25:07,531] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,540] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,546] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,556] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,559] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:25:07,570] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,570] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,582] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,585] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,592] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,593] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:25:07,601] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:25:07,605] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:25:07,638] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:25:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:26:36,317] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:26:36,317] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:26:36,319] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:26:36,764] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:26:36,768] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:26:38,961] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:38] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:26:39,140] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:26:39,162] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,174] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,195] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,205] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,210] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,218] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,221] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:26:39,230] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,239] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:26:39,241] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,250] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:26:39,257] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,259] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:26:39,315] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:26:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:36:15,865] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:36:15,865] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:36:15,868] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:36:16,258] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:36:16,262] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:36:19,225] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:36:19,504] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:36:19,512] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,521] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,535] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,543] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,549] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:36:19,549] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,552] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:36:19,553] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,564] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:36:19,569] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,580] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,585] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,585] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:36:19,716] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:36:21,150] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:36:21,220] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:36:21,221] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:36:21,230] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:36:21,231] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:36:21,234] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,241] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,245] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,246] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,250] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,259] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,266] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,268] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,267] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,277] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:36:21,332] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:36:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:40:16,504] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:40:16,505] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:40:16,507] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:40:16,926] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:40:16,930] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:40:19,731] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:19] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:40:19,971] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:19] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:40:19,981] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:19] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:40:19,991] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:19] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:40:19,997] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:19] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:40:20,006] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:40:20,014] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:40:20,016] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:40:20,026] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:40:20,030] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:40:20,032] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:40:20,034] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:40:20,042] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:40:20,043] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:40:20,044] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:40:20,078] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:40:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:43:31,578] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:43:31,578] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:43:31,581] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:43:31,981] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:43:31,985] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:43:34,862] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:34] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:43:35,164] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,174] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,190] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,195] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,206] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:43:35,208] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,223] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,236] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,238] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,246] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,246] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,249] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,255] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-02 23:43:35,257] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:43:35] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:47:59,666] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:47:59,667] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:47:59,669] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:48:00,067] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:48:00,072] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:48:04,886] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:04] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:48:05,114] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:48:05,137] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:48:05,137] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,150] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,152] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,164] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:48:05,164] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,177] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,186] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,188] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,190] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:48:05,192] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,198] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,204] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:48:05,258] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:48:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:53:49,675] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-02 23:53:49,676] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-02 23:53:49,678] INFO in _internal:  * Restarting with stat
+[2025-11-02 23:53:50,066] WARNING in _internal:  * Debugger is active!
+[2025-11-02 23:53:50,070] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-02 23:53:53,561] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET / HTTP/1.1" 200 -
+[2025-11-02 23:53:53,775] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-02 23:53:53,797] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-02 23:53:53,798] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,801] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-02 23:53:53,822] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,827] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,837] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,838] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-02 23:53:53,840] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,845] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,848] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,864] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,871] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,873] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-02 23:53:53,913] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-02 23:53:58,174] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:53:58] "GET /api/clienti/cerca?q=349 HTTP/1.1" 200 -
+[2025-11-02 23:54:04,525] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:54:04] "GET /api/clienti/cerca?q=ser HTTP/1.1" 200 -
+[2025-11-02 23:54:06,290] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:54:06] "GET /api/clienti/cerca?q=nov HTTP/1.1" 200 -
+[2025-11-02 23:54:13,190] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:54:13] "GET /api/clienti/cerca?q=fav HTTP/1.1" 200 -
+[2025-11-02 23:55:24,960] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:55:24] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-02 23:55:44,128] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:55:44] "GET /api/clienti/cerca?q=5641321 HTTP/1.1" 200 -
+[2025-11-02 23:55:44,733] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:55:44] "GET /api/clienti/cerca?q=56413 HTTP/1.1" 200 -
+[2025-11-02 23:55:48,180] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:55:48] "GET /api/clienti/cerca?q=349 HTTP/1.1" 200 -
+[2025-11-02 23:59:26,407] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:59:26] "GET /api/clienti/cerca?q=va HTTP/1.1" 200 -
+[2025-11-02 23:59:27,412] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:59:27] "GET /api/clienti/cerca?q=fav HTTP/1.1" 200 -
+[2025-11-02 23:59:45,566] INFO in _internal: 127.0.0.1 - - [02/Nov/2025 23:59:45] "GET /api/clienti/cerca?q=349-0633281 HTTP/1.1" 200 -
+[2025-11-03 00:00:30,641] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:00:30] "GET /api/clienti/cerca?q=fav HTTP/1.1" 200 -
+[2025-11-03 00:10:17,788] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-03 00:10:17,788] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-03 00:10:17,791] INFO in _internal:  * Restarting with stat
+[2025-11-03 00:10:18,176] WARNING in _internal:  * Debugger is active!
+[2025-11-03 00:10:18,180] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-03 00:10:20,666] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "GET / HTTP/1.1" 200 -
+[2025-11-03 00:10:20,836] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,839] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,879] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,879] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,889] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,899] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,906] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,913] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,921] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,923] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,928] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,928] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:20,930] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-03 00:10:20,931] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:20] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-03 00:10:28,472] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:10:28] "GET /api/clienti/cerca?q=34 HTTP/1.1" 200 -
+[2025-11-03 00:11:03,320] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET / HTTP/1.1" 200 -
+[2025-11-03 00:11:03,376] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-03 00:11:03,384] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-03 00:11:03,389] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-03 00:11:03,394] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-03 00:11:03,395] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,400] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,401] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,408] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,409] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,416] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,418] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,425] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,426] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,429] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-03 00:11:03,508] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:11:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-03 00:12:28,363] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-03 00:12:28,363] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-03 00:12:28,366] INFO in _internal:  * Restarting with stat
+[2025-11-03 00:12:28,795] WARNING in _internal:  * Debugger is active!
+[2025-11-03 00:12:28,800] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-03 00:12:30,300] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET / HTTP/1.1" 200 -
+[2025-11-03 00:12:30,500] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-03 00:12:30,513] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,526] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-03 00:12:30,539] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,548] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,558] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,564] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,578] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,581] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-03 00:12:30,579] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,593] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,594] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,598] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-03 00:12:30,606] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-03 00:12:30,641] INFO in _internal: 127.0.0.1 - - [03/Nov/2025 00:12:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-07 11:32:16,701] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-07 11:32:16,702] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-07 11:32:16,705] INFO in _internal:  * Restarting with stat
+[2025-11-07 11:32:17,091] WARNING in _internal:  * Debugger is active!
+[2025-11-07 11:32:17,096] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-07 11:32:23,560] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET / HTTP/1.1" 200 -
+[2025-11-07 11:32:23,765] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-07 11:32:23,778] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,796] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,806] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-07 11:32:23,814] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-07 11:32:23,823] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,829] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,833] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,838] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,840] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,841] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-07 11:32:23,846] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,864] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,869] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-07 11:32:23,911] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-07 11:32:26,542] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:32:26] "GET /api/clienti/cerca?q=nova HTTP/1.1" 200 -
+[2025-11-07 11:38:41,447] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:38:41] "[33mGET /api/menu/prodotti/pizza HTTP/1.1[0m" 404 -
+[2025-11-07 11:38:41,525] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 11:38:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-07 12:46:09,524] INFO in _internal:  * Detected change in 'D:\\Pizzeria 6.0\\pizzafactory\\app.py', reloading
+[2025-11-07 12:46:09,627] INFO in _internal:  * Restarting with stat
+[2025-11-07 12:46:29,841] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-07 12:46:29,841] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-07 12:46:29,844] INFO in _internal:  * Restarting with stat
+[2025-11-07 12:46:30,233] WARNING in _internal:  * Debugger is active!
+[2025-11-07 12:46:30,238] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-07 12:46:56,844] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:46:56] "GET /test_diagnostico HTTP/1.1" 200 -
+[2025-11-07 12:46:57,093] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:46:57] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-07 12:46:57,103] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:46:57] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-07 12:46:57,115] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:46:57] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-07 12:46:57,118] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:46:57] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-07 12:46:57,133] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:46:57] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-07 12:46:57,149] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:46:57] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-07 12:46:57,935] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:46:57] "[33mGET /api/menu/prodotti/pizza HTTP/1.1[0m" 404 -
+[2025-11-07 12:47:04,999] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:47:04] "[33mGET /api/menu/prodotti/pizza HTTP/1.1[0m" 404 -
+[2025-11-07 12:47:06,533] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:47:06] "[33mGET /api/menu/prodotti/pizza HTTP/1.1[0m" 404 -
+[2025-11-07 12:47:07,051] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:47:07] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-07 12:53:08,981] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:53:08] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-07 12:53:09,037] INFO in _internal: 127.0.0.1 - - [07/Nov/2025 12:53:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 14:04:45,406] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-09 14:04:45,407] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-09 14:04:45,410] INFO in _internal:  * Restarting with stat
+[2025-11-09 14:04:45,843] WARNING in _internal:  * Debugger is active!
+[2025-11-09 14:04:45,848] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-09 14:04:52,224] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "GET / HTTP/1.1" 200 -
+[2025-11-09 14:04:52,518] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,546] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,576] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,601] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,602] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,601] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,624] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,635] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,636] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,667] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,669] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,681] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,714] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,732] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,734] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,752] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,758] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,771] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,787] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:04:52,858] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 14:04:52,861] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:04:52,879] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 14:04:52,898] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 14:04:57,385] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:57] "GET /carico-scorte HTTP/1.1" 200 -
+[2025-11-09 14:04:57,475] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:04:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 14:05:06,484] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:06] "[35m[1mPOST /api/scorte/carico HTTP/1.1[0m" 201 -
+[2025-11-09 14:05:09,818] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "GET / HTTP/1.1" 200 -
+[2025-11-09 14:05:09,882] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,887] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,893] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,895] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,903] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,921] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,923] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,930] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,933] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,936] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,943] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,945] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,954] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,954] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,961] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,968] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,971] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,973] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:09,976] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:09] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:05:10,056] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:10] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 14:05:10,056] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:10] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:05:10,059] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:10] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 14:05:10,082] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 14:05:43,305] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:05:43] "GET /carico-scorte HTTP/1.1" 200 -
+[2025-11-09 14:32:02,953] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:32:02] "GET /carico-scorte HTTP/1.1" 200 -
+[2025-11-09 14:32:25,746] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:32:25] "[35m[1mPOST /api/scorte/carico HTTP/1.1[0m" 201 -
+[2025-11-09 14:40:34,646] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:34] "[35m[1mPOST /api/scorte/carico HTTP/1.1[0m" 201 -
+[2025-11-09 14:40:51,065] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "GET / HTTP/1.1" 200 -
+[2025-11-09 14:40:51,178] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,185] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,193] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,195] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,198] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,208] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,209] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,211] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,220] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,220] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,229] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,230] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,236] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,243] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-09 14:40:51,244] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-09 14:40:51,246] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,256] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,258] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,262] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:40:51,372] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 14:40:51,373] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:40:51,379] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 14:40:51,389] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:40:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 14:46:48,106] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-09 14:46:48,107] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-09 14:46:48,110] INFO in _internal:  * Restarting with stat
+[2025-11-09 14:46:48,509] WARNING in _internal:  * Debugger is active!
+[2025-11-09 14:46:48,514] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-09 14:46:53,800] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:53] "GET / HTTP/1.1" 200 -
+[2025-11-09 14:46:54,050] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-09 14:46:54,055] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,059] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-09 14:46:54,065] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,068] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,073] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-09 14:46:54,081] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,086] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,091] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-09 14:46:54,096] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,097] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-09 14:46:54,104] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,106] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,108] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,114] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,120] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,122] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,124] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,125] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-09 14:46:54,148] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 14:46:54,148] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:46:54,150] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 14:46:54,162] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:46:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 14:47:01,194] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:01] "GET /carico-scorte HTTP/1.1" 200 -
+[2025-11-09 14:47:01,283] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:01] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:47:16,034] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:16] "[35m[1mPOST /api/scorte/carico HTTP/1.1[0m" 201 -
+[2025-11-09 14:47:17,401] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:17] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:47:19,165] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "GET / HTTP/1.1" 200 -
+[2025-11-09 14:47:19,271] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-09 14:47:19,272] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,276] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,282] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,283] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,290] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,292] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,300] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,301] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,304] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,311] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,315] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,322] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,326] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,330] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,333] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,339] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,339] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,343] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-09 14:47:19,424] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:47:19,427] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 14:47:19,435] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:47:19] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 14:48:25,683] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:48:25] "[32mPOST /api/ordini HTTP/1.1[0m" 308 -
+[2025-11-09 14:48:25,699] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:48:25] "[35m[1mPOST /api/ordini/ HTTP/1.1[0m" 500 -
+[2025-11-09 14:50:25,111] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET / HTTP/1.1" 200 -
+[2025-11-09 14:50:25,181] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-09 14:50:25,183] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-09 14:50:25,192] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-09 14:50:25,193] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-09 14:50:25,195] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-09 14:50:25,197] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,212] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,214] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,215] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,226] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,227] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,228] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,238] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,245] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,246] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,253] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,253] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,262] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,263] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-09 14:50:25,294] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 14:50:25,294] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:50:25,296] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 14:50:25,308] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 14:50:30,266] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET / HTTP/1.1" 200 -
+[2025-11-09 14:50:30,321] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-09 14:50:30,322] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-09 14:50:30,337] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-09 14:50:30,344] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-09 14:50:30,346] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-09 14:50:30,347] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,357] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,359] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,361] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,366] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,375] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,376] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,380] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,378] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,392] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,394] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,398] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,405] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,407] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-09 14:50:30,429] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 14:50:30,430] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 14:50:30,431] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 14:50:30,441] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 14:50:35,785] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:35] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 14:50:46,608] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:46] "[32mPOST /api/ordini HTTP/1.1[0m" 308 -
+[2025-11-09 14:50:46,616] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 14:50:46] "[35m[1mPOST /api/ordini/ HTTP/1.1[0m" 500 -
+[2025-11-09 22:20:56,005] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "GET / HTTP/1.1" 200 -
+[2025-11-09 22:20:56,184] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-09 22:20:56,187] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,190] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-09 22:20:56,200] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,211] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,218] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,228] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,241] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,257] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,258] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,265] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,265] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,282] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,288] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,294] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,320] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,322] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,323] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,346] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-09 22:20:56,692] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 22:20:56,694] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 22:20:56,693] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:20:56] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 22:21:10,373] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:10] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 22:21:21,706] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:21] "GET /api/clienti/cerca?q=no HTTP/1.1" 200 -
+[2025-11-09 22:21:29,669] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET / HTTP/1.1" 200 -
+[2025-11-09 22:21:29,741] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-09 22:21:29,742] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-09 22:21:29,745] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-09 22:21:29,752] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-09 22:21:29,759] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-09 22:21:29,761] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,764] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,774] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,774] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,777] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,786] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,787] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,789] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,794] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,797] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,800] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,807] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,807] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,809] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-09 22:21:29,871] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 22:21:29,873] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 22:21:29,872] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 22:21:29,884] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 22:21:32,285] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:32] "GET /api/clienti/cerca?q=novara HTTP/1.1" 200 -
+[2025-11-09 22:21:35,721] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:35] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 22:21:40,553] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:40] "[32mPOST /api/ordini HTTP/1.1[0m" 308 -
+[2025-11-09 22:21:40,561] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:21:40] "[35m[1mPOST /api/ordini/ HTTP/1.1[0m" 500 -
+[2025-11-09 22:33:50,688] INFO in _internal:  * Detected change in 'D:\\Pizzeria 6.0\\pizzafactory\\modules\\ordini\\model.py', reloading
+[2025-11-09 22:33:50,780] INFO in _internal:  * Restarting with stat
+[2025-11-09 22:33:52,146] WARNING in _internal:  * Debugger is active!
+[2025-11-09 22:33:52,150] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-09 22:34:24,382] INFO in _internal:  * Detected change in 'D:\\Pizzeria 6.0\\pizzafactory\\modules\\ordini\\service.py', reloading
+[2025-11-09 22:34:24,436] INFO in _internal:  * Restarting with stat
+[2025-11-09 22:34:24,838] WARNING in _internal:  * Debugger is active!
+[2025-11-09 22:34:24,843] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-09 22:35:01,574] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-09 22:35:01,574] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-09 22:35:01,581] INFO in _internal:  * Restarting with stat
+[2025-11-09 22:35:01,985] WARNING in _internal:  * Debugger is active!
+[2025-11-09 22:35:01,990] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-09 22:35:11,409] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET / HTTP/1.1" 200 -
+[2025-11-09 22:35:11,637] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-09 22:35:11,674] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-09 22:35:11,679] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,696] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,698] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,711] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-09 22:35:11,714] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,724] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-09 22:35:11,733] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,740] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,741] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,746] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-09 22:35:11,747] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,748] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,756] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,766] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,779] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,781] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,788] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-09 22:35:11,826] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-09 22:35:11,827] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-09 22:35:11,834] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 22:35:11,841] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-09 22:35:20,195] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:20] "GET /api/clienti/cerca?q=novara HTTP/1.1" 200 -
+[2025-11-09 22:35:24,587] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:24] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-09 22:35:37,615] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:37] "[32mPOST /api/ordini HTTP/1.1[0m" 308 -
+[2025-11-09 22:35:37,628] INFO in _internal: 127.0.0.1 - - [09/Nov/2025 22:35:37] "[35m[1mPOST /api/ordini/ HTTP/1.1[0m" 500 -
+[2025-11-13 09:10:24,195] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-13 09:10:24,199] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-13 09:10:24,202] INFO in _internal:  * Restarting with stat
+[2025-11-13 09:10:24,589] WARNING in _internal:  * Debugger is active!
+[2025-11-13 09:10:24,594] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-13 09:10:29,600] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET / HTTP/1.1" 200 -
+[2025-11-13 09:10:29,820] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-13 09:10:29,836] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-13 09:10:29,837] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-13 09:10:29,860] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-13 09:10:29,900] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-13 09:10:29,906] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-13 09:10:29,918] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-13 09:10:29,931] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-13 09:10:29,939] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-13 09:10:29,957] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-13 09:10:29,958] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-13 09:10:29,969] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-13 09:10:29,988] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-13 09:10:29,995] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:29] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-13 09:10:30,004] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-13 09:10:30,012] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-13 09:10:30,031] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-13 09:10:30,036] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-13 09:10:30,047] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-13 09:10:30,097] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-13 09:10:30,123] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-13 09:10:30,124] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-13 09:10:30,139] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-13 09:10:39,500] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:39] "GET /api/clienti/cerca?q=no HTTP/1.1" 200 -
+[2025-11-13 09:10:45,740] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:45] "GET / HTTP/1.1" 200 -
+[2025-11-13 09:10:52,870] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:52] "GET /api/clienti/cerca?q=349 HTTP/1.1" 200 -
+[2025-11-13 09:10:59,873] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:10:59] "GET /api/clienti/cerca?q=nova HTTP/1.1" 200 -
+[2025-11-13 09:11:25,048] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:11:25] "GET /carico-scorte HTTP/1.1" 200 -
+[2025-11-13 09:11:25,115] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:11:25] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-13 09:12:30,648] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "GET / HTTP/1.1" 200 -
+[2025-11-13 09:12:30,725] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,727] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,729] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,735] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,748] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,755] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,763] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,769] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,771] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,775] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,774] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,784] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,788] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,796] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,800] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,802] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,806] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,808] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,818] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-13 09:12:30,835] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-13 09:12:30,836] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-13 09:12:30,842] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:30] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-13 09:12:59,289] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:12:59] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-13 09:13:55,162] INFO in _internal: 127.0.0.1 - - [13/Nov/2025 09:13:55] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 12:08:56,832] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-14 12:08:56,832] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-14 12:08:56,834] INFO in _internal:  * Restarting with stat
+[2025-11-14 12:08:57,240] WARNING in _internal:  * Debugger is active!
+[2025-11-14 12:08:57,247] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-14 12:09:06,869] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:06] "GET / HTTP/1.1" 200 -
+[2025-11-14 12:09:07,115] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "GET /static/js/modules/ordini/formati.js HTTP/1.1" 200 -
+[2025-11-14 12:09:07,147] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,188] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,189] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,231] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,236] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,246] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,251] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,260] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,266] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-14 12:09:07,273] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,283] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,302] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,308] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,341] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,349] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,359] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,375] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,380] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,397] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-14 12:09:07,783] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 12:09:07,789] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 12:09:07,791] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:07] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 12:09:11,196] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:11] "GET /api/clienti/cerca?q=nova HTTP/1.1" 200 -
+[2025-11-14 12:09:27,149] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:09:27] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 12:47:06,078] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-14 12:47:06,079] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-14 12:47:06,081] INFO in _internal:  * Restarting with stat
+[2025-11-14 12:47:06,479] WARNING in _internal:  * Debugger is active!
+[2025-11-14 12:47:06,486] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-14 12:47:08,098] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:47:08] "GET /carico-scorte HTTP/1.1" 200 -
+[2025-11-14 12:47:08,148] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:47:08] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 12:47:08,158] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:47:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-14 12:47:22,474] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:47:22] "[35m[1mPOST /api/scorte/carico HTTP/1.1[0m" 201 -
+[2025-11-14 12:47:26,645] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 12:47:26] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 16:23:11,677] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-14 16:23:11,677] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-14 16:23:11,680] INFO in _internal:  * Restarting with stat
+[2025-11-14 16:23:12,095] WARNING in _internal:  * Debugger is active!
+[2025-11-14 16:23:12,101] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-14 16:23:17,868] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:17] "GET / HTTP/1.1" 200 -
+[2025-11-14 16:23:18,179] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,193] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/css/base.css HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,203] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,214] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,214] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,225] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-14 16:23:18,237] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,249] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,250] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/modules/ordini/formati.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,257] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,262] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,270] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,298] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,312] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-14 16:23:18,327] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,350] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,352] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,375] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,381] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,389] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:18,423] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 16:23:18,428] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:23:18,428] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:18] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 16:23:23,693] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:23] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:23:49,544] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "GET / HTTP/1.1" 200 -
+[2025-11-14 16:23:49,714] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-14 16:23:49,728] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-14 16:23:49,734] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-14 16:23:49,736] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-14 16:23:49,741] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-14 16:23:49,764] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,777] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,783] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,788] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,796] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/formati.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,796] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,802] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,803] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,805] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,811] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,815] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,817] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,818] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,823] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:49,829] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:49] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:23:50,151] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:50] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 16:23:50,921] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:50] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 16:23:51,005] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:51] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:23:53,476] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:23:53] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:24:43,909] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:43] "GET / HTTP/1.1" 200 -
+[2025-11-14 16:24:44,056] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-14 16:24:44,102] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/css/components/navbar.css HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,104] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/css/components/modals.css HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,105] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,111] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,120] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,121] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,123] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,134] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,135] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/formati.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,141] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,142] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,144] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,156] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,158] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,172] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,182] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,189] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,199] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,206] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-14 16:24:44,748] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 16:24:44,811] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 16:24:44,906] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:44] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:24:47,711] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:24:47] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:25:50,658] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:50] "GET /api/clienti/cerca?q=novara HTTP/1.1" 200 -
+[2025-11-14 16:25:56,892] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:56] "GET / HTTP/1.1" 200 -
+[2025-11-14 16:25:56,961] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:56] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-14 16:25:56,990] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:56] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-14 16:25:56,995] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:56] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-14 16:25:57,009] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-14 16:25:57,014] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-14 16:25:57,024] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,038] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,046] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,054] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,056] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/formati.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,058] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,069] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,080] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,090] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,099] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,109] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,114] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,124] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,134] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,140] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-14 16:25:57,158] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 16:25:57,163] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 16:25:57,174] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:25:57,180] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-14 16:25:59,588] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:25:59] "GET /api/clienti/cerca?q=n%20ova HTTP/1.1" 200 -
+[2025-11-14 16:26:00,298] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:26:00] "GET /api/clienti/cerca?q=n%20ov HTTP/1.1" 200 -
+[2025-11-14 16:26:01,758] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:26:01] "GET /api/clienti/cerca?q=novara HTTP/1.1" 200 -
+[2025-11-14 16:26:06,963] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:26:06] "[32mPOST /api/ordini HTTP/1.1[0m" 308 -
+[2025-11-14 16:26:06,979] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:26:06] "[35m[1mPOST /api/ordini/ HTTP/1.1[0m" 500 -
+[2025-11-14 16:26:18,975] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:26:18] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:41:59,706] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET / HTTP/1.1" 200 -
+[2025-11-14 16:41:59,772] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-14 16:41:59,780] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-14 16:41:59,787] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-14 16:41:59,799] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-14 16:41:59,805] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-14 16:41:59,806] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,808] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,814] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,820] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,821] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/formati.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,825] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,828] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,830] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,840] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,843] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,845] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,854] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,865] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,870] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,874] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-14 16:41:59,929] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 16:41:59,930] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 16:41:59,935] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:41:59,942] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:41:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-14 16:42:04,531] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:42:04] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:46:58,993] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-14 16:46:58,994] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-14 16:46:58,996] INFO in _internal:  * Restarting with stat
+[2025-11-14 16:46:59,392] WARNING in _internal:  * Debugger is active!
+[2025-11-14 16:46:59,399] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-14 16:47:09,117] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET / HTTP/1.1" 200 -
+[2025-11-14 16:47:09,259] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-14 16:47:09,261] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-14 16:47:09,274] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-14 16:47:09,280] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,287] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,289] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,298] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,307] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/formati.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,312] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-14 16:47:09,312] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,321] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,326] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,331] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,332] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-14 16:47:09,332] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,339] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,346] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,351] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,358] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,358] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-14 16:47:09,376] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 16:47:09,377] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 16:47:09,379] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 16:47:09,386] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-14 16:47:13,609] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 16:47:13] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 17:00:57,936] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-14 17:00:57,937] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-14 17:00:57,939] INFO in _internal:  * Restarting with stat
+[2025-11-14 17:00:58,339] WARNING in _internal:  * Debugger is active!
+[2025-11-14 17:00:58,346] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-14 17:01:01,180] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET / HTTP/1.1" 200 -
+[2025-11-14 17:01:01,350] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-14 17:01:01,371] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,400] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,412] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-14 17:01:01,412] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-14 17:01:01,422] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,427] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/formati.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,432] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-14 17:01:01,435] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,439] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-14 17:01:01,445] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,451] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,455] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,457] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,458] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,463] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,467] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,470] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,477] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,480] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-14 17:01:01,504] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 17:01:01,505] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 17:01:01,506] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 17:01:01,513] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-14 17:01:05,370] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:01:05] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 17:22:22,305] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-14 17:22:22,306] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-14 17:22:22,308] INFO in _internal:  * Restarting with stat
+[2025-11-14 17:22:22,694] WARNING in _internal:  * Debugger is active!
+[2025-11-14 17:22:22,701] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-14 17:22:25,592] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET / HTTP/1.1" 200 -
+[2025-11-14 17:22:25,775] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-14 17:22:25,814] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,837] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,840] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-14 17:22:25,862] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,871] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/formati.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,882] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,891] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,892] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-14 17:22:25,893] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-14 17:22:25,905] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,913] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,919] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,922] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-14 17:22:25,923] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,933] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,940] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,946] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,951] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,958] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-14 17:22:25,975] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 17:22:25,976] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 17:22:25,978] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 17:22:25,986] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-14 17:22:28,972] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 17:22:28] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 23:59:17,146] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.38:5000
+[2025-11-14 23:59:17,147] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-11-14 23:59:17,149] INFO in _internal:  * Restarting with stat
+[2025-11-14 23:59:17,585] WARNING in _internal:  * Debugger is active!
+[2025-11-14 23:59:17,591] INFO in _internal:  * Debugger PIN: 134-788-023
+[2025-11-14 23:59:25,750] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:25] "GET / HTTP/1.1" 200 -
+[2025-11-14 23:59:26,032] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-14 23:59:26,061] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/core/state.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,086] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-14 23:59:26,113] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/css/components/menu_completo.css HTTP/1.1" 200 -
+[2025-11-14 23:59:26,115] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-14 23:59:26,116] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/core/utils.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,118] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/app.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,118] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/css/pages/ordini.css HTTP/1.1" 200 -
+[2025-11-14 23:59:26,125] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/core/api.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,164] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/formati.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,167] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/pizze.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,173] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/cliente.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,186] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/carrello.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,201] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/personalizzazione.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,202] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/menu_completo.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,211] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/totali.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,237] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/form.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,245] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/modules/ordini/menu_bibite.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,249] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/components/modal_soglie.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,261] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /static/js/ordini.js HTTP/1.1" 200 -
+[2025-11-14 23:59:26,315] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-14 23:59:26,324] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-14 23:59:26,328] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-14 23:59:26,349] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-14 23:59:29,967] INFO in _internal: 127.0.0.1 - - [14/Nov/2025 23:59:29] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-15 00:06:35,735] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:35] "GET /carico-scorte HTTP/1.1" 200 -
+[2025-11-15 00:06:35,841] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:35] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-15 00:06:35,865] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-15 00:06:44,642] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "GET / HTTP/1.1" 200 -
+[2025-11-15 00:06:44,714] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "GET /static/css/components/navbar.css HTTP/1.1" 200 -
+[2025-11-15 00:06:44,715] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "GET /static/css/base.css HTTP/1.1" 200 -
+[2025-11-15 00:06:44,731] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "GET /static/css/components/modals.css HTTP/1.1" 200 -
+[2025-11-15 00:06:44,733] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/css/components/menu_completo.css HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,741] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/css/pages/ordini.css HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,746] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/core/api.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,750] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/core/state.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,755] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/core/utils.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,760] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,762] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/formati.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,766] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/cliente.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,776] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/pizze.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,778] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/carrello.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,781] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/menu_completo.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,782] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/personalizzazione.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,792] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/form.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,792] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/totali.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,796] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/modules/ordini/menu_bibite.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,800] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/ordini.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,808] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[36mGET /static/js/components/modal_soglie.js HTTP/1.1[0m" 304 -
+[2025-11-15 00:06:44,845] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-15 00:06:44,846] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "GET /api/prodotti/bibite HTTP/1.1" 200 -
+[2025-11-15 00:06:44,848] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "GET /api/prodotti?formato=pizza HTTP/1.1" 200 -
+[2025-11-15 00:06:44,861] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-11-15 00:06:47,165] INFO in _internal: 127.0.0.1 - - [15/Nov/2025 00:06:47] "GET /api/prodotti/con-scorte HTTP/1.1" 200 -
+[2025-11-15 00:14:05,334] INFO in _internal:  * Detected change in 'D:\\Pizzeria 6.0\\pizzafactory\\migration_impasti_speciali.py', reloading
+[2025-11-15 00:14:05,402] INFO in _internal:  * Restarting with stat
+[2025-11-15 00:14:05,840] WARNING in _internal:  * Debugger is active!
+[2025-11-15 00:14:05,846] INFO in _internal:  * Debugger PIN: 134-788-023
