@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carico Scorte - PizzaFactory</title>
+    
+    <style>
+        /* ============================================
+           CSS - Da frammentare in:
+           frontend/static/css/pages/carico_scorte.css
+           ============================================ */
+        
+        :root {
+            --verde-salvia: #71A894;
+            --rosso-salmone: #EE6B6B;
+            --giallo-ocra: #F4C063;
+            --sabbia: #EBD9B4;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* Header */
+        .header {
+            background: white;
+            padding: 25px 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header-title {
+            font-size: 2em;
+            color: var(--verde-salvia);
+            font-weight: 700;
+        }
+        
+        .btn-back {
+            padding: 12px 24px;
+            background: #e0e0e0;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-back:hover {
+            background: #d0d0d0;
+        }
+        
+        /* Griglia Layout */
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 25px;
+        }
+        
+        /* Card */
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        
+        .card-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        /* Form Ricerca */
+        .search-section {
+            margin-bottom: 25px;
+        }
+        
+        .search-box {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 15px 50px 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: all 0.3s;
+        }
+        
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--verde-salvia);
+        }
+        
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5em;
+            color: #999;
+        }
+        
+        .quick-categories {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .btn-category {
+            padding: 8px 16px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            border-radius: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-category:hover {
+            border-color: var(--verde-salvia);
+        }
+        
+        .btn-category.active {
+            background: var(--verde-salvia);
+            color: white;
+            border-color: var(--verde-salvia);
+        }
+        
+        /* Lista Prodotti */
+        .prodotti-list {
+            max-height: 500px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+        
+        .prodotto-item {
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s;
+        }
+        
+        .prodotto-item:hover {
+            border-color: var(--verde-salvia);
+            background: #f8f9fa;
+        }
+        
+        .prodotto-info {
+            flex: 1;
+        }
+        
+        .prodotto-nome {
+            font-weight: 700;
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 4px;
+        }
+        
+        .prodotto-dettagli {
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .badge-scorte {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        
+        .badge-scorte.basse {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .badge-scorte.esaurite {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .prodotto-azioni {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .input-quantita {
+            width: 80px;
+            padding: 8px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1em;
+        }
+        
+        .btn-add {
+            padding: 8px 16px;
+            background: var(--verde-salvia);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-add:hover {
+            background: #5d9078;
+            transform: translateY(-2px);
+        }
+        
+        /* Riepilogo Carico */
+        .riepilogo-list {
+            margin-top: 20px;
+        }
+        
+        .riepilogo-item {
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .riepilogo-nome {
+            font-weight: 600;
+            flex: 1;
+        }
+        
+        .riepilogo-qta {
+            font-weight: 700;
+            color: var(--verde-salvia);
+            margin-right: 10px;
+        }
+        
+        .btn-remove {
+            background: #EE6B6B;
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        
+        .btn-remove:hover {
+            background: #d85757;
+        }
+        
+        /* Note */
+        .note-section {
+            margin-top: 20px;
+        }
+        
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 80px;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: var(--verde-salvia);
+        }
+        
+        /* Footer Azioni */
+        .footer-azioni {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .btn-primary {
+            padding: 15px;
+            background: var(--verde-salvia);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary:hover {
+            background: #5d9078;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            padding: 12px;
+            background: white;
+            color: #666;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-secondary:hover {
+            border-color: #666;
+            background: #f0f0f0;
+        }
+        
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        
+        .empty-state-icon {
+            font-size: 4em;
+            margin-bottom: 15px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .grid-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .prodotto-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            
+            .prodotto-azioni {
+                width: 100%;
+                justify-content: flex-end;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Header -->
+        <div class="header">
+            <h1 class="header-title">📦 Carico Scorte</h1>
+            <button class="btn-back" onclick="window.location.href='/'">
+                ← Torna alla Dashboard
+            </button>
+        </div>
+        
+        <!-- Layout Principale -->
+        <div class="grid-layout">
+            
+            <!-- SEZIONE SINISTRA: Ricerca e Prodotti -->
+            <div class="card">
+                <h2 class="card-title">
+                    🔍 Cerca Prodotto
+                </h2>
+                
+                <div class="search-section">
+                    <!-- Barra Ricerca -->
+                    <div class="search-box">
+                        <input type="text" 
+                               id="search-prodotto" 
+                               placeholder="Cerca per nome o usa lo scanner barcode..."
+                               oninput="CaricoScorte.cercaProdotto(this.value)">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    
+                    <!-- Filtri Rapidi -->
+                    <div class="quick-categories">
+                        <button class="btn-category active" onclick="CaricoScorte.filtraCategoria('tutte')">
+                            Tutte
+                        </button>
+                        <button class="btn-category" onclick="CaricoScorte.filtraCategoria('Bibite')">
+                            🥤 Bibite
+                        </button>
+                        <button class="btn-category" onclick="CaricoScorte.filtraCategoria('Acqua')">
+                            💧 Acqua
+                        </button>
+                        <button class="btn-category" onclick="CaricoScorte.filtraCategoria('Birre')">
+                            🍺 Birre
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Lista Prodotti -->
+                <div class="prodotti-list" id="prodotti-list">
+                    <!-- Prodotti caricati dinamicamente -->
+                </div>
+            </div>
+            
+            <!-- SEZIONE DESTRA: Riepilogo Carico -->
+            <div class="card">
+                <h2 class="card-title">
+                    📝 Riepilogo Carico
+                </h2>
+                
+                <div class="riepilogo-list" id="riepilogo-list">
+                    <!-- Empty state -->
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📦</div>
+                        <p>Nessun prodotto aggiunto</p>
+                        <small>Cerca e aggiungi prodotti per iniziare il carico</small>
+                    </div>
+                </div>
+                
+                <!-- Note -->
+                <div class="note-section">
+                    <label style="display: block; font-weight: 600; margin-bottom: 8px;">
+                        📄 Note (opzionale)
+                    </label>
+                    <textarea id="note-carico" 
+                              placeholder="Es: Carico settimanale Coca Cola, fattura n. 1234..."></textarea>
+                </div>
+                
+                <!-- Azioni -->
+                <div class="footer-azioni">
+                    <button class="btn-primary" onclick="CaricoScorte.confermaCarico()">
+                        💾 Conferma Carico
+                    </button>
+                    <button class="btn-secondary" onclick="CaricoScorte.svuotaCarico()">
+                        🗑️ Svuota Tutto
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script>
+        /* ============================================
+           JAVASCRIPT - Da frammentare in:
+           frontend/static/js/pages/carico_scorte.js
+           ============================================ */
+        
+        const CaricoScorte = {
+            prodotti: [],
+            carico: new Map(), // Map<ID_Prodotto, {prodotto, quantita}>
+            categoriaFiltro: 'tutte',
+            
+            // ========================================
+            // INIT
+            // ========================================
+            async init() {
+                console.log('📦 Init Carico Scorte...');
+                await this.caricaProdotti();
+                this.renderProdotti();
+                
+                // Setup barcode scanner (futuro)
+                this.setupBarcodeScanner();
+            },
+            
+            // ========================================
+            // CARICA PRODOTTI CON SCORTE
+            // Query: SELECT * FROM Prodotti WHERE Gestione_Scorte = 1 ORDER BY Categoria, Nome_Prodotto
+            // ========================================
+            async caricaProdotti() {
+                try {
+                    // ✅ CHIAMATA API VERA (non più MOCK!)
+                    const response = await fetch('/api/prodotti/con-scorte');
+                    
+                    if (!response.ok) {
+                        throw new Error(`Errore HTTP: ${response.status}`);
+                    }
+                    
+                    this.prodotti = await response.json();
+                    console.log(`✅ Caricati ${this.prodotti.length} prodotti dal database`);
+                    
+                } catch (error) {
+                    console.error('❌ Errore caricamento prodotti:', error);
+                    alert('Errore nel caricamento dei prodotti. Riprova.');
+                    this.prodotti = [];
+                }
+            },
+            
+            // ========================================
+            // FILTRA CATEGORIA
+            // ========================================
+            filtraCategoria(categoria) {
+                this.categoriaFiltro = categoria;
+                
+                // Aggiorna bottoni
+                document.querySelectorAll('.btn-category').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                event.target.classList.add('active');
+                
+                // Ri-renderizza
+                this.renderProdotti();
+            },
+            
+            // ========================================
+            // CERCA PRODOTTO
+            // ========================================
+            cercaProdotto(query) {
+                query = query.toLowerCase();
+                
+                const items = document.querySelectorAll('.prodotto-item');
+                items.forEach(item => {
+                    const nome = item.querySelector('.prodotto-nome').textContent.toLowerCase();
+                    
+                    if (nome.includes(query)) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            },
+            
+            // ========================================
+            // RENDER PRODOTTI
+            // ========================================
+            renderProdotti() {
+                const list = document.getElementById('prodotti-list');
+                
+                // Filtra
+                let prodottiFiltrati = this.prodotti;
+                if (this.categoriaFiltro !== 'tutte') {
+                    prodottiFiltrati = this.prodotti.filter(p => p.Categoria === this.categoriaFiltro);
+                }
+                
+                // Renderizza
+                list.innerHTML = prodottiFiltrati.map(p => {
+                    const qta = p.Quantita_Disponibile || 0;
+                    const soglia = p.Soglia_Minima || 5;
+                    
+                    let badgeScorte = '';
+                    if (qta === 0) {
+                        badgeScorte = '<span class="badge-scorte esaurite">❌ Esaurite</span>';
+                    } else if (qta <= soglia) {
+                        badgeScorte = '<span class="badge-scorte basse">⚠️ Basse</span>';
+                    }
+                    
+                    return `
+                        <div class="prodotto-item">
+                            <div class="prodotto-info">
+                                <div class="prodotto-nome">${p.Nome_Prodotto}</div>
+                                <div class="prodotto-dettagli">
+                                    Disponibili: ${qta} ${p.Unita_Misura} | Soglia: ${soglia}
+                                    ${badgeScorte}
+                                </div>
+                            </div>
+                            <div class="prodotto-azioni">
+                                <input type="number" 
+                                       class="input-quantita" 
+                                       id="qta-${p.ID_Prodotto}"
+                                       value="1" 
+                                       min="1"
+                                       placeholder="Qta">
+                                <button class="btn-add" onclick="CaricoScorte.aggiungiAlCarico(${p.ID_Prodotto})">
+                                    + Aggiungi
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            },
+            
+            // ========================================
+            // AGGIUNGI AL CARICO
+            // ========================================
+            aggiungiAlCarico(idProdotto) {
+                const prodotto = this.prodotti.find(p => p.ID_Prodotto === idProdotto);
+                const input = document.getElementById(`qta-${idProdotto}`);
+                const quantita = parseInt(input.value) || 1;
+                
+                if (!prodotto) return;
+                
+                // Aggiungi o aggiorna quantità
+                if (this.carico.has(idProdotto)) {
+                    const item = this.carico.get(idProdotto);
+                    item.quantita += quantita;
+                } else {
+                    this.carico.set(idProdotto, {
+                        prodotto: prodotto,
+                        quantita: quantita
+                    });
+                }
+                
+                // Reset input
+                input.value = 1;
+                
+                // Aggiorna riepilogo
+                this.renderRiepilogo();
+                
+                // Feedback visivo
+                input.style.background = '#d4edda';
+                setTimeout(() => input.style.background = '', 300);
+                
+                console.log('✅ Aggiunto al carico:', prodotto.Nome_Prodotto, quantita);
+            },
+            
+            // ========================================
+            // RENDER RIEPILOGO
+            // ========================================
+            renderRiepilogo() {
+                const list = document.getElementById('riepilogo-list');
+                
+                if (this.carico.size === 0) {
+                    list.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">📦</div>
+                            <p>Nessun prodotto aggiunto</p>
+                            <small>Cerca e aggiungi prodotti per iniziare il carico</small>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                list.innerHTML = Array.from(this.carico.entries()).map(([id, item]) => `
+                    <div class="riepilogo-item">
+                        <span class="riepilogo-nome">${item.prodotto.Nome_Prodotto}</span>
+                        <span class="riepilogo-qta">+${item.quantita} ${item.prodotto.Unita_Misura}</span>
+                        <button class="btn-remove" onclick="CaricoScorte.rimuoviDalCarico(${id})">
+                            ✕
+                        </button>
+                    </div>
+                `).join('');
+            },
+            
+            // ========================================
+            // RIMUOVI DAL CARICO
+            // ========================================
+            rimuoviDalCarico(idProdotto) {
+                this.carico.delete(idProdotto);
+                this.renderRiepilogo();
+            },
+            
+            // ========================================
+            // SVUOTA CARICO
+            // ========================================
+            svuotaCarico() {
+                if (this.carico.size === 0) return;
+                
+                if (confirm('Vuoi svuotare tutto il carico?')) {
+                    this.carico.clear();
+                    this.renderRiepilogo();
+                }
+            },
+            
+            // ========================================
+            // CONFERMA CARICO
+            // ========================================
+            async confermaCarico() {
+                if (this.carico.size === 0) {
+                    alert('⚠️ Aggiungi almeno un prodotto prima di confermare');
+                    return;
+                }
+                
+                const note = document.getElementById('note-carico').value;
+                
+                // Prepara dati per invio
+                const movimenti = Array.from(this.carico.entries()).map(([id, item]) => ({
+                    ID_Prodotto: id,
+                    Tipo_Movimento: 'Carico',
+                    Quantita: item.quantita,
+                    Note: note
+                }));
+                
+                console.log('💾 Conferma carico:', movimenti);
+                
+                try {
+                    // ✅ CHIAMATA API ATTIVA
+                    const response = await fetch('/api/scorte/carico', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ movimenti })
+                    });
+                    
+                    if (!response.ok) {
+                        throw new Error(`Errore HTTP: ${response.status}`);
+                    }
+                    
+                    const result = await response.json();
+                    console.log('✅ Risposta server:', result);
+                    
+                    alert(`✅ Carico confermato con successo!\n\n${result.movimenti || this.carico.size} prodotti aggiornati`);
+                    
+                    // Reset
+                    this.carico.clear();
+                    document.getElementById('note-carico').value = '';
+                    this.renderRiepilogo();
+                    
+                    // Ricarica prodotti con nuove quantità
+                    await this.caricaProdotti();
+                    this.renderProdotti();
+                    
+                } catch (error) {
+                    console.error('❌ Errore conferma carico:', error);
+                    alert(`❌ Errore durante il salvataggio:\n${error.message}\n\nControlla la console per dettagli.`);
+                }
+            },
+            
+            // ========================================
+            // SETUP BARCODE SCANNER (futuro)
+            // ========================================
+            setupBarcodeScanner() {
+                // Placeholder per futura integrazione scanner
+                console.log('📱 Barcode scanner: da implementare');
+                
+                // Esempio: listener per dispositivi con scanner hardware
+                // document.addEventListener('keypress', (e) => {
+                //     // Accumula caratteri dello scanner
+                //     // Cerca prodotto per barcode
+                // });
+            }
+        };
+        
+        // ========================================
+        // INIT AL CARICAMENTO
+        // ========================================
+        window.addEventListener('DOMContentLoaded', () => {
+            CaricoScorte.init();
+        });
+    </script>
+</body>
+</html>

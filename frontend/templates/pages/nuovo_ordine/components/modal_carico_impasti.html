@@ -1,0 +1,410 @@
+<!-- ========================================
+     MODAL: Carico Impasti Laboratorio
+     Gestione stock impasti speciali con NFC
+     ======================================== -->
+
+<div id="modal-carico-impasti" class="modal-overlay hidden">
+    <div class="modal-container modal-large">
+        <!-- HEADER -->
+        <div class="modal-header">
+            <h2>🌾 Carico Impasti Laboratorio</h2>
+            <button class="btn-close-modal" onclick="closeModalImpasti()">✕</button>
+        </div>
+
+        <!-- INFO BOX -->
+        <div class="impasti-info-box">
+            <div class="info-icon">ℹ️</div>
+            <div class="info-text">
+                <strong>Gestione Stock Impasti</strong><br>
+                Inserisci il numero di pezzi prodotti per ogni impasto. La soglia minima verrà impostata automaticamente al valore caricato.
+            </div>
+        </div>
+
+        <!-- GRID IMPASTI -->
+        <div class="impasti-grid" id="impasti-grid">
+            <!-- Popolato dinamicamente da JS -->
+        </div>
+
+        <!-- RIEPILOGO CARICO -->
+        <div id="riepilogo-carico" class="riepilogo-carico hidden">
+            <div class="riepilogo-header">
+                <span class="riepilogo-icon">📊</span>
+                <span class="riepilogo-title">Riepilogo Carico</span>
+            </div>
+            <div class="riepilogo-body" id="riepilogo-body">
+                <!-- Popolato dinamicamente -->
+            </div>
+            <div class="riepilogo-totale">
+                <span>Impasti da caricare:</span>
+                <span id="riepilogo-count" class="count-badge">0</span>
+            </div>
+        </div>
+
+        <!-- FOOTER ACTIONS -->
+        <div class="modal-footer">
+            <button class="btn-secondary" onclick="closeModalImpasti()">
+                <span class="btn-icon">✕</span>
+                <span class="btn-text">Annulla</span>
+            </button>
+            <button class="btn-primary" onclick="ImpastiModule.salvaCarico()">
+                <span class="btn-icon">✅</span>
+                <span class="btn-text">Conferma Carico</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- ========================================
+     CSS DEDICATO (inline per semplicità)
+     ======================================== -->
+<style>
+/* MODAL IMPASTI */
+#modal-carico-impasti .modal-container {
+    max-width: 900px;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: var(--text-white);
+    padding: var(--spacing-lg) var(--spacing-xl);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.btn-close-modal {
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.3);
+    color: var(--text-white);
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-md);
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.btn-close-modal:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.1);
+}
+
+/* INFO BOX */
+.impasti-info-box {
+    display: flex;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: var(--accent-yellow-light);
+    border-left: 4px solid var(--accent-yellow);
+    margin: var(--spacing-lg);
+    border-radius: var(--radius-md);
+}
+
+.info-icon {
+    font-size: 1.5em;
+}
+
+.info-text {
+    font-size: 0.9em;
+    color: var(--text-secondary);
+}
+
+.info-text strong {
+    color: var(--text-primary);
+}
+
+/* GRID IMPASTI */
+.impasti-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--spacing-md);
+    padding: 0 var(--spacing-lg);
+    max-height: 45vh;
+    overflow-y: auto;
+}
+
+/* CARD IMPASTO */
+.impasto-card {
+    background: var(--bg-white);
+    border: 2px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    transition: all var(--transition-fast);
+}
+
+.impasto-card:hover {
+    border-color: var(--accent-yellow);
+    box-shadow: var(--shadow-yellow);
+}
+
+.impasto-card.has-input {
+    border-color: var(--accent-yellow);
+    background: var(--accent-yellow-light);
+}
+
+.impasto-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--spacing-md);
+}
+
+.impasto-name {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.impasto-sovrapprezzo {
+    background: linear-gradient(135deg, var(--accent-yellow), var(--accent-yellow-dark));
+    color: var(--text-white);
+    padding: 4px 10px;
+    border-radius: var(--radius-xl);
+    font-size: 0.85em;
+    font-weight: 600;
+    box-shadow: var(--shadow-yellow);
+}
+
+.impasto-stock-info {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm);
+    background: var(--bg-light);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-md);
+    font-size: 0.9em;
+}
+
+.stock-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stock-label {
+    color: var(--text-secondary);
+    font-size: 0.75em;
+    margin-bottom: 2px;
+}
+
+.stock-value {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.stock-value.warning {
+    color: var(--error-color);
+}
+
+/* INPUT QUANTITA */
+.impasto-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.impasto-input-group label {
+    font-size: 0.85em;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.input-with-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.qty-input-impasti {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid var(--border-medium);
+    border-radius: var(--radius-md);
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    transition: all var(--transition-fast);
+}
+
+.qty-input-impasti:focus {
+    outline: none;
+    border-color: var(--accent-yellow);
+    background: var(--accent-yellow-light);
+}
+
+.qty-btn-impasti {
+    width: 45px;
+    height: 45px;
+    background: var(--bg-white);
+    border: 2px solid var(--border-medium);
+    border-radius: var(--radius-md);
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.qty-btn-impasti:hover {
+    background: var(--accent-yellow);
+    border-color: var(--accent-yellow);
+    color: var(--text-white);
+    transform: scale(1.05);
+}
+
+.qty-btn-impasti:active {
+    transform: scale(0.95);
+}
+
+/* RIEPILOGO CARICO */
+.riepilogo-carico {
+    margin: var(--spacing-lg);
+    background: var(--primary-light);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.riepilogo-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: var(--text-white);
+    padding: var(--spacing-md) var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.riepilogo-icon {
+    font-size: 1.3em;
+}
+
+.riepilogo-body {
+    padding: var(--spacing-md) var(--spacing-lg);
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.riepilogo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.riepilogo-item:last-child {
+    border-bottom: none;
+}
+
+.riepilogo-impasto {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.riepilogo-qty {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.1em;
+}
+
+.riepilogo-totale {
+    background: var(--bg-white);
+    padding: var(--spacing-md) var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.count-badge {
+    background: linear-gradient(135deg, var(--accent-yellow), var(--accent-yellow-dark));
+    color: var(--text-white);
+    padding: 6px 16px;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-yellow);
+}
+
+/* FOOTER */
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg) var(--spacing-xl);
+    border-top: 2px solid var(--border-light);
+    background: var(--bg-light);
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+}
+
+.btn-primary,
+.btn-secondary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--accent-yellow), var(--accent-yellow-dark));
+    color: var(--text-white);
+    border: none;
+    box-shadow: var(--shadow-yellow);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-secondary {
+    background: var(--bg-white);
+    border: 2px solid var(--border-medium);
+    color: var(--text-secondary);
+}
+
+.btn-secondary:hover {
+    background: var(--secondary-dark);
+    border-color: var(--border-dark);
+}
+
+.btn-icon {
+    font-size: 1.2em;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .impasti-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    #modal-carico-impasti .modal-container {
+        max-width: 100%;
+        height: 100vh;
+        max-height: 100vh;
+        border-radius: 0;
+    }
+    
+    .modal-footer {
+        flex-direction: column;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        justify-content: center;
+    }
+}
+</style>

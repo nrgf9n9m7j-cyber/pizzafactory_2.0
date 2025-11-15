@@ -1,0 +1,26 @@
+<!-- TOTALI -->
+<div class="totali-section">
+    <div class="totale-row">
+        <span>Subtotale:</span>
+        <span>€ <span id="subtotale">0.00</span></span>
+    </div>
+    <div class="totale-row hidden" id="sovrapprezzo-row">
+        <span>Sovrapprezzo (&lt;€15):</span>
+        <span>€ <span id="sovrapprezzo">2.00</span></span>
+    </div>
+    <div class="totale-row modificabile">
+        <span><strong>TOTALE:</strong></span>
+        <span>
+            <span id="totale-display">€ <span id="totale-finale">0.00</span></span>
+            <button class="btn-modifica-prezzo" onclick="toggleModificaPrezzo()">✏️</button>
+        </span>
+    </div>
+    <div class="totale-row hidden" id="input-modifica-row">
+        <span>Totale Modificato:</span>
+        <span class="modifica-controls">
+            € <input type="number" id="totale-custom" class="input-modifica-prezzo" step="0.50" min="0">
+            <button class="btn-modifica-ok" onclick="applicaModifica()">✓</button>
+            <button class="btn-modifica-cancel" onclick="annullaModifica()">✗</button>
+        </span>
+    </div>
+</div>

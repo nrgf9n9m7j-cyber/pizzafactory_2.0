@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %}PizzaFactory 2.0 - Gestione Ordini{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pages/ordini.css') }}">
+<!-- Aggiungi altri CSS per altri tab quando li crei -->
+{% endblock %}
+
+{% block content %}
+
+<!-- TAB: Nuovo Ordine -->
+<div id="tab-nuovo-ordine" class="tab-content active">
+    {% include 'pages/nuovo_ordine_content.html' %}
+</div>
+
+<!-- TAB: Ordini Attivi -->
+<div id="tab-ordini-attivi" class="tab-content hidden">
+    <h2>📋 Ordini Attivi</h2>
+    <!-- TODO: Creare componente ordini attivi -->
+</div>
+
+<!-- TAB: Gestione -->
+<div id="tab-gestione" class="tab-content hidden">
+    <h2>⚙️ Gestione</h2>
+    <!-- TODO: Creare componente gestione -->
+</div>
+
+<!-- TAB: Menu -->
+<div id="tab-menu" class="tab-content hidden">
+    <h2>🍕 Menu</h2>
+    <!-- TODO: Creare componente menu -->
+</div>
+
+<!-- TAB: Dashboard -->
+<div id="tab-dashboard" class="tab-content hidden">
+    <h2>📊 Dashboard</h2>
+    <!-- TODO: Creare componente dashboard -->
+</div>
+
+<!-- TAB: Presenze -->
+<div id="tab-presenze" class="tab-content hidden">
+    <h2>📅 Presenze</h2>
+    <!-- TODO: Creare componente presenze -->
+</div>
+
+<!-- TAB: Mappa Clienti -->
+<div id="tab-mappa-clienti" class="tab-content hidden">
+    <h2>🗺️ Mappa Clienti</h2>
+    <!-- TODO: Creare componente mappa -->
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/ordini.js') }}"></script>
+
+<script>
+// Switch tra tab
+function switchTab(tabName) {
+    // Nascondi tutti
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.add('hidden');
+        tab.classList.remove('active');
+    });
+    
+    // Rimuovi active da tutti i bottoni
+    document.querySelectorAll('.tab').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    // Mostra tab selezionato
+    const selectedTab = document.getElementById('tab-' + tabName);
+    if (selectedTab) {
+        selectedTab.classList.remove('hidden');
+        selectedTab.classList.add('active');
+    }
+    
+    // Attiva bottone
+    const selectedBtn = document.querySelector(`.tab[data-tab="${tabName}"]`);
+    if (selectedBtn) {
+        selectedBtn.classList.add('active');
+    }
+}
+</script>
+{% endblock %}

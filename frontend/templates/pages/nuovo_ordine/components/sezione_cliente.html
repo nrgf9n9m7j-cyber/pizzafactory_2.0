@@ -1,0 +1,40 @@
+<!-- SEZIONE CLIENTE (SEMPRE IN ALTO - HOOK TELEFONICO) -->
+<div class="sezione-cliente-top">
+    <div class="sezione-cliente-title">
+        📞 Cerca Cliente (Hook Telefonico)
+    </div>
+    
+    <div class="search-container">
+        <input 
+            type="text" 
+            class="search-input" 
+            id="search-cliente-hook"
+            placeholder="Digita telefono, cognome o nome..."
+            oninput="hookCercaCliente(this.value)"
+            autocomplete="off"
+        >
+        <div class="search-results hidden" id="search-results-hook"></div>
+    </div>
+    
+    <!-- RECAP CLIENTE SELEZIONATO -->
+    <div class="cliente-recap hidden" id="cliente-recap">
+        <div class="cliente-recap-header">
+            <span class="cliente-nome" id="cliente-nome-recap"></span>
+            <span class="cliente-badges">
+                <span class="badge-lifecycle" id="cliente-lifecycle"></span>
+                <span class="badge-rating" id="cliente-rating"></span>
+            </span>
+        </div>
+        <div class="cliente-recap-body">
+            <div class="cliente-info">
+                <strong>📞</strong> <span id="cliente-telefono-recap"></span>
+            </div>
+            <div class="cliente-info">
+                <strong>📍</strong> <span id="cliente-indirizzo-recap"></span>
+            </div>
+        </div>
+        <button class="btn-cambia-cliente" onclick="cambiaCliente()">
+            🔄 Cambia Cliente
+        </button>
+    </div>
+</div>

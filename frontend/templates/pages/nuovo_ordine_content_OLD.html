@@ -1,0 +1,261 @@
+{% extends 'base.html' %}
+
+{% block title %}Nuovo Ordine - PizzaFactory{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pages/ordini.css') }}">
+{% endblock %}
+
+{% block content %}
+<div id="tab-nuovo-ordine" class="tab-content-ordini">
+    
+    <!-- HEADER STICKY CON TOTALE -->
+    <div class="header-ordine-sticky">
+        <h2>🍕 Nuovo Ordine</h2>
+        <div class="totale-badge-sticky">
+            <div class="label">TOTALE</div>
+            <div class="valore">€ <span id="totale-sticky">0.00</span></div>
+        </div>
+    </div>
+    
+    <!-- SEZIONE CLIENTE (SEMPRE IN ALTO - HOOK TELEFONICO) -->
+    <div class="sezione-cliente-top">
+        <div class="sezione-cliente-title">
+            📞 Cerca Cliente (Hook Telefonico)
+        </div>
+        
+        <div class="search-container">
+            <input 
+                type="text" 
+                class="search-input" 
+                id="search-cliente-hook"
+                placeholder="Digita telefono, cognome o nome..."
+                oninput="hookCercaCliente(this.value)"
+                autocomplete="off"
+            >
+            <div class="search-results hidden" id="search-results-hook"></div>
+        </div>
+        
+        <!-- RECAP CLIENTE SELEZIONATO -->
+        <div class="cliente-recap hidden" id="cliente-recap">
+            <div class="cliente-recap-header">
+                <span class="cliente-nome" id="cliente-nome-recap"></span>
+                <span class="cliente-badges">
+                    <span class="badge-lifecycle" id="cliente-lifecycle"></span>
+                    <span class="badge-rating" id="cliente-rating"></span>
+                </span>
+            </div>
+            <div class="cliente-recap-body">
+                <div class="cliente-info">
+                    <strong>📞</strong> <span id="cliente-telefono-recap"></span>
+                </div>
+                <div class="cliente-info">
+                    <strong>📍</strong> <span id="cliente-indirizzo-recap"></span>
+                </div>
+            </div>
+            <button class="btn-cambia-cliente" onclick="cambiaCliente()">
+                🔄 Cambia Cliente
+            </button>
+        </div>
+    </div>
+    
+    <!-- SCELTA TIPO ORDINE -->
+    <div class="scelta-tipo-ordine" id="scelta-tipo">
+        <div class="scelta-tipo-title">
+            📦 Seleziona Tipo Ordine
+        </div>
+        <div class="tipo-cards-grid">
+            <div class="tipo-card" onclick="selectTipoOrdine(1, this)">
+                <div class="tipo-card-icon">🚚</div>
+                <div class="tipo-card-title">Consegna</div>
+                <div class="tipo-card-subtitle">A domicilio</div>
+            </div>
+            <div class="tipo-card" onclick="selectTipoOrdine(2, this)">
+                <div class="tipo-card-icon">📦</div>
+                <div class="tipo-card-title">Ritiro</div>
+                <div class="tipo-card-subtitle">In loco</div>
+            </div>
+            <div class="tipo-card" onclick="selectTipoOrdine(3, this)">
+                <div class="tipo-card-icon">🪑</div>
+                <div class="tipo-card-title">Tavolo</div>
+                <div class="tipo-card-subtitle">Al tavolo</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- CONTENUTO PRINCIPALE (hidden inizialmente) -->
+    <div id="main-content-ordine" class="main-grid-ordine hidden">
+        
+        <!-- COLONNA SINISTRA: FORM ADATTIVO -->
+        <div class="col-form-ordine">
+            
+            <!-- FORM CONSEGNA -->
+            <div id="form-consegna" class="form-tipo hidden">
+                <div class="section-title">🚚 Dati Consegna</div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Cognome:</label>
+                        <input type="text" id="cognome-consegna" placeholder="Cognome">
+                    </div>
+                    <div class="form-group">
+                        <label>Nome:</label>
+                        <input type="text" id="nome-consegna" placeholder="Nome">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>📞 Telefono:</label>
+                    <input type="tel" id="telefono-consegna" placeholder="333-1234567">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Indirizzo:</label>
+                        <input type="text" id="indirizzo-consegna" placeholder="Via/Corso">
+                    </div>
+                    <div class="form-group">
+                        <label>Civico:</label>
+                        <input type="text" id="civico-consegna" placeholder="N°">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>🏙️ Città:</label>
+                    <select id="citta-consegna">
+                        <option value="Chieri">Chieri</option>
+                        <option value="Torino">Torino</option>
+                        <option value="Pino Torinese">Pino Torinese</option>
+                        <option value="Altra">Altra...</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>🕐 Orario Consegna:</label>
+                    <input type="time" id="orario-consegna">
+                </div>
+                
+                <div class="form-group">
+                    <label>📝 Note:</label>
+                    <textarea id="note-consegna" rows="3" placeholder="Note aggiuntive..."></textarea>
+                </div>
+            </div>
+            
+            <!-- FORM RITIRO -->
+            <div id="form-ritiro" class="form-tipo hidden">
+                <div class="section-title">📦 Dati Ritiro</div>
+                
+                <div class="form-group">
+                    <label>Cognome:</label>
+                    <input type="text" id="cognome-ritiro" placeholder="Cognome">
+                </div>
+                
+                <div class="form-group">
+                    <label>📞 Telefono:</label>
+                    <input type="tel" id="telefono-ritiro" placeholder="333-1234567">
+                </div>
+                
+                <div class="form-group">
+                    <label>🕐 Orario Ritiro:</label>
+                    <input type="time" id="orario-ritiro">
+                </div>
+                
+                <div class="form-group">
+                    <label>📝 Note:</label>
+                    <textarea id="note-ritiro" rows="3" placeholder="Note aggiuntive..."></textarea>
+                </div>
+            </div>
+            
+            <!-- FORM TAVOLO -->
+            <div id="form-tavolo" class="form-tipo hidden">
+                <div class="section-title">🪑 Dati Tavolo</div>
+                
+                <div class="form-group">
+                    <label>Numero Tavolo:</label>
+                    <input type="number" id="numero-tavolo" placeholder="es. 5" min="1">
+                </div>
+                
+                <div class="form-group">
+                    <label>📝 Note:</label>
+                    <textarea id="note-tavolo" rows="3" placeholder="Note aggiuntive..."></textarea>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- COLONNA DESTRA: PIZZE + CARRELLO -->
+        <div class="col-pizze-ordine">
+            
+            <!-- MENU RAPIDO TOP 8 -->
+            <div class="menu-rapido-section">
+                <div class="menu-rapido-title">
+                    ⭐ Top 8 Pizze - Selezione Rapida
+                </div>
+                
+                <div class="pizza-grid" id="pizza-grid-top8">
+                    <!-- Popolato dinamicamente da JS -->
+                </div>
+                
+                <div class="menu-rapido-actions">
+                    <button class="btn-secondary" onclick="openMenuCompleto()">
+                        📋 Menu Completo
+                    </button>
+                    <button class="btn-secondary" onclick="openBibite()">
+                        🥤 Bibite
+                    </button>
+                </div>
+            </div>
+            
+            <!-- CARRELLO -->
+            <div class="carrello-section">
+                <div class="carrello-title">🛒 Carrello</div>
+                <div id="carrello-items">
+                    <div class="carrello-empty">
+                        Nessun prodotto aggiunto.<br>
+                        Seleziona una pizza dal menu rapido!
+                    </div>
+                </div>
+            </div>
+            
+            <!-- TOTALI -->
+            <div class="totali-section">
+                <div class="totale-row">
+                    <span>Subtotale:</span>
+                    <span>€ <span id="subtotale">0.00</span></span>
+                </div>
+                <div class="totale-row hidden" id="sovrapprezzo-row">
+                    <span>Sovrapprezzo (&lt;€15):</span>
+                    <span>€ <span id="sovrapprezzo">2.00</span></span>
+                </div>
+                <div class="totale-row modificabile">
+                    <span><strong>TOTALE:</strong></span>
+                    <span>
+                        <span id="totale-display">€ <span id="totale-finale">0.00</span></span>
+                        <button class="btn-modifica-prezzo" onclick="toggleModificaPrezzo()">✏️</button>
+                    </span>
+                </div>
+                <div class="totale-row hidden" id="input-modifica-row">
+                    <span>Totale Modificato:</span>
+                    <span class="modifica-controls">
+                        € <input type="number" id="totale-custom" class="input-modifica-prezzo" step="0.50" min="0">
+                        <button class="btn-modifica-ok" onclick="applicaModifica()">✓</button>
+                        <button class="btn-modifica-cancel" onclick="annullaModifica()">✗</button>
+                    </span>
+                </div>
+            </div>
+            
+            <!-- CONFERMA ORDINE -->
+            <button class="btn-conferma-ordine" onclick="confermaOrdine()">
+                ✅ Conferma Ordine
+            </button>
+            
+        </div>
+        
+    </div>
+    
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/ordini.js') }}"></script>
+{% endblock %}

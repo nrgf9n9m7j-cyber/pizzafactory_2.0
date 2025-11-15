@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+
+{% block title %}PizzaFactory 2.0 - Gestione Ordini{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/pages/ordini.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/components/menu_completo.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<!-- TAB: Nuovo Ordine -->
+<div id="tab-nuovo-ordine" class="tab-content active">
+	{% include 'pages/nuovo_ordine/nuovo_ordine_content.html' %}
+</div>
+
+<!-- TAB: Ordini Attivi -->
+<div id="tab-ordini-attivi" class="tab-content hidden">
+    <h2>📋 Ordini Attivi</h2>
+    <!-- TODO: Creare componente ordini attivi -->
+</div>
+
+<!-- TAB: Gestione -->
+<div id="tab-gestione" class="tab-content hidden">
+    <h2>⚙️ Gestione</h2>
+    <!-- TODO: Creare componente gestione -->
+</div>
+
+<!-- TAB: Menu -->
+<div id="tab-menu" class="tab-content hidden">
+    <h2>🍕 Menu</h2>
+    <!-- TODO: Creare componente menu -->
+</div>
+
+<!-- TAB: Dashboard -->
+<div id="tab-dashboard" class="tab-content hidden">
+    <h2>📊 Dashboard</h2>
+    <!-- TODO: Creare componente dashboard -->
+</div>
+
+<!-- TAB: Presenze -->
+<div id="tab-presenze" class="tab-content hidden">
+    <h2>📅 Presenze</h2>
+    <!-- TODO: Creare componente presenze -->
+</div>
+
+<!-- TAB: Mappa Clienti -->
+<div id="tab-mappa-clienti" class="tab-content hidden">
+    <h2>🗺️ Mappa Clienti</h2>
+    <!-- TODO: Creare componente mappa -->
+</div>
+
+{% include 'pages/nuovo_ordine/components/modal_menu_completo.html' %}
+
+{% endblock %}
+
+{% block extra_js %}
+<!-- ✨ NUOVO: Modulo Formati (PRIMA DI TUTTO) -->
+<script src="{{ url_for('static', filename='js/modules/ordini/formati.js') }}"></script>
+
+<!-- JS MODULI ORDINI (IN ORDINE) -->
+<script src="{{ url_for('static', filename='js/modules/ordini/cliente.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modules/ordini/pizze.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modules/ordini/carrello.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modules/ordini/menu_completo.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modules/ordini/personalizzazione.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modules/ordini/totali.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modules/ordini/form.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modules/ordini/menu_bibite.js') }}"></script>
+<script src="{{ url_for('static', filename='js/components/modal_soglie.js') }}"></script>
+
+<!-- ORCHESTRATOR (ULTIMO) -->
+<script src="{{ url_for('static', filename='js/ordini.js') }}"></script>
+
+<script>
+// Switch tra tab
+function switchTab(tabName) {
+    document.querySelectorAll('.tab-content').forEach(tab => {
+        tab.classList.add('hidden');
+        tab.classList.remove('active');
+    });
+    
+    document.querySelectorAll('.tab').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    
+    const selectedTab = document.getElementById('tab-' + tabName);
+    if (selectedTab) {
+        selectedTab.classList.remove('hidden');
+        selectedTab.classList.add('active');
+    }
+    
+    const selectedBtn = document.querySelector(`.tab[data-tab="${tabName}"]`);
+    if (selectedBtn) {
+        selectedBtn.classList.add('active');
+    }
+}
+</script>
+{% endblock %}

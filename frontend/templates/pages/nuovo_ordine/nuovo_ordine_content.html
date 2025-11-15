@@ -1,0 +1,31 @@
+<div id="tab-nuovo-ordine" class="tab-content-ordini">
+    
+    {% include 'pages/nuovo_ordine/components/header_sticky.html' %}
+    
+    {% include 'pages/nuovo_ordine/components/sezione_cliente.html' %}
+    
+    {% include 'pages/nuovo_ordine/components/scelta_tipo_ordine.html' %}
+    
+    <!-- CONTENUTO PRINCIPALE (hidden inizialmente) -->
+    <div id="main-content-ordine" class="main-grid-ordine hidden">
+        
+        <!-- COLONNA SINISTRA: FORM ADATTIVO -->
+        <div class="col-form-ordine">
+            {% include 'pages/nuovo_ordine/components/forms/form_consegna.html' %}
+            {% include 'pages/nuovo_ordine/components/forms/form_ritiro.html' %}
+            {% include 'pages/nuovo_ordine/components/forms/form_tavolo.html' %}
+        </div>
+        
+        <!-- COLONNA DESTRA: PIZZE + CARRELLO -->
+        <div class="col-pizze-ordine">
+            <!-- Menu rapido con Top 8 pizze -->
+            {% include 'pages/nuovo_ordine/components/menu_rapido.html' %}
+            
+            {% include 'pages/nuovo_ordine/components/carrello.html' %}
+            {% include 'pages/nuovo_ordine/components/totali.html' %}
+            {% include 'pages/nuovo_ordine/components/btn_conferma.html' %}
+        </div>
+        
+    </div>
+    
+</div>

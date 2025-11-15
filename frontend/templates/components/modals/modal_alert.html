@@ -1,0 +1,35 @@
+<!-- Modal Alert Custom (sostituisce alert browser) -->
+<div id="modal-alert" class="modal-overlay hidden">
+    <div class="modal-alert-content">
+        <div class="modal-alert-icon" id="modal-alert-icon">ℹ️</div>
+        <div class="modal-alert-message" id="modal-alert-message"></div>
+        <div class="modal-alert-actions">
+            <button class="btn-modal-alert" onclick="closeModalAlert()">OK</button>
+        </div>
+    </div>
+</div>
+
+<script>
+// Funzione globale per mostrare alert custom
+function showAlert(message, type = 'info') {
+    const modal = document.getElementById('modal-alert');
+    const icon = document.getElementById('modal-alert-icon');
+    const messageEl = document.getElementById('modal-alert-message');
+    
+    // Icone per tipo
+    const icons = {
+        info: 'ℹ️',
+        success: '✅',
+        warning: '⚠️',
+        error: '❌'
+    };
+    
+    icon.textContent = icons[type] || icons.info;
+    messageEl.textContent = message;
+    modal.classList.remove('hidden');
+}
+
+function closeModalAlert() {
+    document.getElementById('modal-alert').classList.add('hidden');
+}
+</script>

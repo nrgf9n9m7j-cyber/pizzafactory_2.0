@@ -1,0 +1,84 @@
+<!-- ================================================
+     MODAL MENU COMPLETO PIZZE - STILE 1.0
+     Card clickabili senza bottoni extra
+     ================================================ -->
+<div id="modal-menu-completo" class="modal" style="display:none;">
+    <div class="modal-overlay" onclick="MenuCompletoModule.chiudi()"></div>
+    
+    <div class="modal-container modal-large">
+        
+        <!-- HEADER -->
+        <div class="modal-header">
+            <h2>📋 Menu Completo Pizze</h2>
+            <button class="modal-close-btn" onclick="MenuCompletoModule.chiudi()">×</button>
+        </div>
+        
+        <!-- SELECTOR FORMATI PIZZA -->
+        <div class="formati-selector-menu">
+            <div class="formati-label">📐 Formato:</div>
+            <div class="formati-buttons">
+                <button class="btn-formato-menu active" data-formato="pizza" onclick="MenuCompletoModule.cambiaFormato('pizza')">
+                    Classica
+                </button>
+                <button class="btn-formato-menu" data-formato="baby" onclick="MenuCompletoModule.cambiaFormato('baby')">
+                    Baby <span class="formato-info">-€2</span>
+                </button>
+                <button class="btn-formato-menu" data-formato="maxi" onclick="MenuCompletoModule.cambiaFormato('maxi')">
+                    Maxi <span class="formato-info">×2.5</span>
+                </button>
+                <button class="btn-formato-menu" data-formato="tegamino" onclick="MenuCompletoModule.cambiaFormato('tegamino')">
+                    Tegamino <span class="formato-info">+€1</span>
+                </button>
+                <button class="btn-formato-menu" data-formato="farinata" onclick="MenuCompletoModule.cambiaFormato('farinata')">
+                    Farinata
+                </button>
+                <button class="btn-formato-menu" data-formato="trancio" onclick="MenuCompletoModule.cambiaFormato('trancio')" disabled>
+                    Trancio <span class="formato-info">🔜</span>
+                </button>
+                <button class="btn-formato-menu" data-formato="teglia" onclick="MenuCompletoModule.cambiaFormato('teglia')" disabled>
+                    Teglia <span class="formato-info">🔜</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- FILTRI CATEGORIA - OPZIONE A -->
+        <div class="menu-filtri">
+            <button class="filtro-btn active" data-categoria="tutte" onclick="MenuCompletoModule.filtra('tutte')">
+                Tutte <span class="badge" id="badge-tutte">0</span>
+            </button>
+            <button class="filtro-btn" data-categoria="Rosse" onclick="MenuCompletoModule.filtra('Rosse')">
+                🍅 Rosse <span class="badge" id="badge-rosse">0</span>
+            </button>
+            <button class="filtro-btn" data-categoria="Bianche" onclick="MenuCompletoModule.filtra('Bianche')">
+                🧀 Bianche <span class="badge" id="badge-bianche">0</span>
+            </button>
+            <button class="filtro-btn" data-categoria="Vegetariane" onclick="MenuCompletoModule.filtra('Vegetariane')">
+                🌱 Vegetariane <span class="badge" id="badge-vegetariane">0</span>
+            </button>
+            <button class="filtro-btn" data-categoria="Gourmet" onclick="MenuCompletoModule.filtra('Gourmet')">
+                ⭐ Gourmet <span class="badge" id="badge-gourmet">0</span>
+            </button>
+        </div>
+        
+        <!-- BODY - GRID PIZZE -->
+        <div class="modal-body">
+            <div class="menu-help-text">
+                💡 <strong>Click sulla pizza</strong> per aggiungere velocemente | <strong>Click su ⚙️</strong> per personalizzare
+            </div>
+            <div id="menu-pizze-grid" class="pizze-grid">
+                <!-- Popolato dinamicamente da JavaScript -->
+                <div class="loading-placeholder">
+                    Caricamento pizze...
+                </div>
+            </div>
+        </div>
+        
+        <!-- FOOTER -->
+        <div class="modal-footer">
+            <button class="btn-secondary" onclick="MenuCompletoModule.chiudi()">
+                Chiudi
+            </button>
+        </div>
+        
+    </div>
+</div>

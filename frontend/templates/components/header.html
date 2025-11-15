@@ -1,0 +1,114 @@
+<header class="header-main">
+    <!-- MENU HAMBURGER (SINISTRA) -->
+    <div class="header-left">
+        <button class="btn-hamburger" onclick="toggleMenuAvanzato()">
+            ☰
+        </button>
+        
+        <!-- SERATA STATUS -->
+        <div class="serata-status" id="serata-info">
+            <span class="status-icon">📅</span>
+            <span class="status-text">Nessuna serata aperta</span>
+        </div>
+    </div>
+    
+    <!-- BRAND CENTRALE -->
+    <div class="header-brand">
+        <h1>🍕 PizzaFactory</h1>
+        <p class="header-version">v2.0</p>
+    </div>
+    
+    <!-- INFO + ORA (DESTRA) -->
+    <div class="header-right">
+        <div class="current-time" id="current-time">--:--</div>
+    </div>
+</header>
+
+<!-- MENU AVANZATO (SLIDE-IN DA SINISTRA) -->
+<div class="menu-avanzato-overlay hidden" id="menu-avanzato-overlay" onclick="toggleMenuAvanzato()"></div>
+<div class="menu-avanzato hidden" id="menu-avanzato">
+    <div class="menu-avanzato-header">
+        <h3>⚙️ Menu Avanzato</h3>
+        <button class="btn-close-menu" onclick="toggleMenuAvanzato()">✕</button>
+    </div>
+    
+    <div class="menu-avanzato-content">
+        <!-- SEZIONE SERATA -->
+        <div class="menu-section">
+            <div class="menu-section-title">🌙 Gestione Serata</div>
+            <button class="menu-btn" onclick="openModalSerata()">
+                <span class="menu-btn-icon">⚙️</span>
+                <span class="menu-btn-text">Inizializza Serata</span>
+            </button>
+            <button class="menu-btn" onclick="openModalChiudiSerata()">
+                <span class="menu-btn-icon">🌙</span>
+                <span class="menu-btn-text">Chiudi Serata</span>
+            </button>
+        </div>
+        
+        <!-- SEZIONE GESTIONE -->
+        <div class="menu-section">
+            <div class="menu-section-title">⚙️ Gestione</div>
+            <button class="menu-btn" onclick="switchTab('gestione'); toggleMenuAvanzato();">
+                <span class="menu-btn-icon">👥</span>
+                <span class="menu-btn-text">Clienti</span>
+            </button>
+            <button class="menu-btn" onclick="switchTab('menu'); toggleMenuAvanzato();">
+                <span class="menu-btn-icon">🍕</span>
+                <span class="menu-btn-text">Menu</span>
+            </button>
+			<button class="menu-btn" onclick="window.location.href='/carico-scorte';">
+                <span class="menu-btn-icon">📦</span>
+                <span class="menu-btn-text">Carico Scorte</span>
+            </button>
+            <button class="menu-btn" onclick="ModalSoglie.apri(); toggleMenuAvanzato();">
+                <span class="menu-btn-icon">⚙️</span>
+                <span class="menu-btn-text">Gestione Soglie</span>
+            </button>
+        </div>
+        
+        <!-- SEZIONE ALTRO -->
+        <div class="menu-section">
+            <div class="menu-section-title">📁 Altro</div>
+            <button class="menu-btn" onclick="switchTab('presenze'); toggleMenuAvanzato();">
+                <span class="menu-btn-icon">📅</span>
+                <span class="menu-btn-text">Presenze</span>
+            </button>
+            <button class="menu-btn">
+                <span class="menu-btn-icon">📊</span>
+                <span class="menu-btn-text">Statistiche</span>
+            </button>
+            <button class="menu-btn">
+                <span class="menu-btn-icon">⚙️</span>
+                <span class="menu-btn-text">Impostazioni</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+// Toggle menu avanzato
+function toggleMenuAvanzato() {
+    const menu = document.getElementById('menu-avanzato');
+    const overlay = document.getElementById('menu-avanzato-overlay');
+    
+    menu.classList.toggle('hidden');
+    overlay.classList.toggle('hidden');
+    
+    // Animazione slide-in
+    if (!menu.classList.contains('hidden')) {
+        setTimeout(() => menu.classList.add('show'), 10);
+    } else {
+        menu.classList.remove('show');
+    }
+}
+
+// Aggiorna ora in tempo reale
+function updateTime() {
+    const now = new Date();
+    const timeStr = now.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
+    document.getElementById('current-time').textContent = timeStr;
+}
+updateTime();
+setInterval(updateTime, 60000);
+</script>

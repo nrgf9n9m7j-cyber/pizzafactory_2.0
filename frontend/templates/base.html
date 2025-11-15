@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}🍕 PizzaFactory 2.0{% endblock %}</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/components/modals.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/components/menu_completo.css') }}">
+    {% block extra_css %}{% endblock %}
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    
+    <!-- HEADER OTTIMIZZATO 22" VERTICALE + iPAD -->
+    {% include 'components/header.html' %}
+    
+    <!-- NAVBAR TABS -->
+    {% include 'components/navbar.html' %}
+    
+    <!-- CONTENUTO PAGINA -->
+    <div class="main-content">
+        {% block content %}{% endblock %}
+    </div>
+    
+    <!-- MODALS GLOBALI -->
+    {% include 'components/modals/modal_alert.html' %}
+    
+    <!-- JS CORE (CARICATI PRIMA) -->
+    <script src="{{ url_for('static', filename='js/core/api.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/core/state.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/core/utils.js') }}"></script>
+    
+    <!-- JS APP -->
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    
+    <!-- JS PAGINA -->
+    {% block extra_js %}{% endblock %}
+    
+	<!-- Modal Menu Bibite -->
+	{% include 'components/modal_menu_bibite.html' %}
+
+	<!-- Modal Soglie Scorte -->
+	{% include 'components/modal_soglie_scorte.html' %}
+
+	<!-- ❌ RIMOSSI: Gli script menu_bibite.js e modal_soglie.js vengono caricati in index.html -->
+	<!-- ✅ Questo risolve l'errore "redeclaration of const" -->
+	
+</body>
+</html>

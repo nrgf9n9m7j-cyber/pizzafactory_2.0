@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>🔍 Test Diagnostico Top 8 Pizze</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f7fa;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .test-section h2 {
+            color: #71a894;
+            margin-bottom: 15px;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 6px;
+            margin: 10px 0;
+            font-weight: 600;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .status.warning {
+            background: #fff3cd;
+            color: #856404;
+        }
+        .code-block {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            overflow-x: auto;
+        }
+        button {
+            background: #71a894;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            margin: 5px;
+        }
+        button:hover {
+            background: #5a8a7a;
+        }
+        #pizza-grid-top8 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .pizza-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .pizza-card:hover {
+            border-color: #71a894;
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Diagnostica Top 8 Pizze - PizzaFactory 2.0</h1>
+    
+    <div class="test-section">
+        <h2>📋 Test 1: Verifica Connessione API</h2>
+        <button onclick="testAPI()">▶ Esegui Test API</button>
+        <div id="test-api-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔧 Test 2: Verifica Moduli JavaScript</h2>
+        <button onclick="testModules()">▶ Verifica Moduli</button>
+        <div id="test-modules-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎨 Test 3: Verifica Container HTML</h2>
+        <button onclick="testContainer()">▶ Verifica Container</button>
+        <div id="test-container-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🚀 Test 4: Caricamento Manuale Pizze</h2>
+        <button onclick="caricaManualmente()">▶ Carica Pizze Manualmente</button>
+        <div id="test-manual-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🍕 Preview Container Top 8</h2>
+        <p>Se i test precedenti vanno a buon fine, qui sotto dovrebbero apparire le pizze:</p>
+        <div id="pizza-grid-top8">
+            <div style="grid-column: 1/-1; text-align: center; color: #999; padding: 40px;">
+                In attesa di test...
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // ========================================
+        // TEST 1: API
+        // ========================================
+        async function testAPI() {
+            const result = document.getElementById('test-api-result');
+            result.innerHTML = '<div class="status warning">🔄 Test in corso...</div>';
+            
+            try {
+                const response = await fetch('/api/menu/prodotti/pizza');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                if (!Array.isArray(data) || data.length === 0) {
+                    throw new Error('API non restituisce array o array vuoto');
+                }
+                
+                result.innerHTML = `
+                    <div class="status success">
+                        ✅ API Funzionante!<br>
+                        Pizze ricevute: ${data.length}<br>
+                        Prima pizza: ${data[0].Nome_Prodotto} (€${data[0].Prezzo_Base})
+                    </div>
+                    <details>
+                        <summary>Vedi risposta completa</summary>
+                        <div class="code-block">${JSON.stringify(data, null, 2)}</div>
+                    </details>
+                `;
+                
+                console.log('✅ API Test OK:', data);
+                
+            } catch (error) {
+                result.innerHTML = `
+                    <div class="status error">
+                        ❌ Errore API:<br>
+                        ${error.message}
+                    </div>
+                    <div class="code-block">
+                        Verifica che:<br>
+                        1. Flask sia avviato (python app.py)<br>
+                        2. Endpoint /api/menu/prodotti/pizza esista<br>
+                        3. Database contenga pizze
+                    </div>
+                `;
+                
+                console.error('❌ API Test Failed:', error);
+            }
+        }
+        
+        // ========================================
+        // TEST 2: MODULI
+        // ========================================
+        function testModules() {
+            const result = document.getElementById('test-modules-result');
+            let html = '';
+            
+            const tests = [
+                { name: 'API', check: () => typeof API !== 'undefined' },
+                { name: 'Utils', check: () => typeof Utils !== 'undefined' },
+                { name: 'State', check: () => typeof State !== 'undefined' },
+                { name: 'PizzeModule', check: () => typeof PizzeModule !== 'undefined' },
+                { name: 'PizzeModule.renderTopPizze', check: () => typeof PizzeModule?.renderTopPizze === 'function' },
+                { name: 'CarrelloModule', check: () => typeof CarrelloModule !== 'undefined' }
+            ];
+            
+            let allOk = true;
+            
+            tests.forEach(test => {
+                try {
+                    const ok = test.check();
+                    if (ok) {
+                        html += `<div class="status success">✅ ${test.name} - OK</div>`;
+                    } else {
+                        html += `<div class="status error">❌ ${test.name} - NON TROVATO</div>`;
+                        allOk = false;
+                    }
+                } catch (e) {
+                    html += `<div class="status error">❌ ${test.name} - ERRORE: ${e.message}</div>`;
+                    allOk = false;
+                }
+            });
+            
+            if (allOk) {
+                html += '<div class="status success">🎉 Tutti i moduli sono caricati correttamente!</div>';
+            } else {
+                html += `
+                    <div class="status error">
+                        ⚠️ Alcuni moduli mancano!<br>
+                        Verifica che tutti i file JS siano caricati nell'ordine corretto in base.html
+                    </div>
+                `;
+            }
+            
+            result.innerHTML = html;
+        }
+        
+        // ========================================
+        // TEST 3: CONTAINER
+        // ========================================
+        function testContainer() {
+            const result = document.getElementById('test-container-result');
+            const container = document.getElementById('pizza-grid-top8');
+            
+            if (!container) {
+                result.innerHTML = `
+                    <div class="status error">
+                        ❌ Container #pizza-grid-top8 NON TROVATO!<br>
+                        Verifica che esista in menu_rapido.html
+                    </div>
+                `;
+                return;
+            }
+            
+            // Verifica visibilità
+            const styles = window.getComputedStyle(container);
+            const isVisible = styles.display !== 'none' && styles.visibility !== 'hidden';
+            
+            result.innerHTML = `
+                <div class="status success">
+                    ✅ Container trovato!<br>
+                    Display: ${styles.display}<br>
+                    Visibility: ${styles.visibility}<br>
+                    Stato: ${isVisible ? 'Visibile ✅' : 'Nascosto ❌'}
+                </div>
+            `;
+            
+            if (!isVisible) {
+                result.innerHTML += `
+                    <div class="status warning">
+                        ⚠️ Il container esiste ma è nascosto!<br>
+                        Controlla CSS o classi 'hidden'
+                    </div>
+                `;
+            }
+        }
+        
+        // ========================================
+        // TEST 4: CARICAMENTO MANUALE
+        // ========================================
+        async function caricaManualmente() {
+            const result = document.getElementById('test-manual-result');
+            result.innerHTML = '<div class="status warning">🔄 Caricamento in corso...</div>';
+            
+            try {
+                // Step 1: Fetch API
+                const response = await fetch('/api/menu/prodotti/pizza');
+                const pizze = await response.json();
+                
+                if (pizze.length === 0) {
+                    throw new Error('Nessuna pizza nel database');
+                }
+                
+                // Step 2: Prendi top 8
+                const top8 = pizze.slice(0, 8);
+                
+                // Step 3: Render
+                const container = document.getElementById('pizza-grid-top8');
+                container.innerHTML = '';
+                
+                top8.forEach((pizza, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'pizza-card';
+                    card.innerHTML = `
+                        <div style="font-size: 2em;">🍕</div>
+                        <div style="font-weight: 600; margin: 10px 0;">${pizza.Nome_Prodotto}</div>
+                        <div style="color: #71a894; font-weight: bold;">€ ${parseFloat(pizza.Prezzo_Base).toFixed(2)}</div>
+                    `;
+                    card.onclick = () => alert(`Cliccato su ${pizza.Nome_Prodotto}`);
+                    container.appendChild(card);
+                });
+                
+                result.innerHTML = `
+                    <div class="status success">
+                        ✅ Caricamento manuale riuscito!<br>
+                        Top 8 pizze visualizzate sotto
+                    </div>
+                `;
+                
+                console.log('✅ Pizze caricate manualmente:', top8);
+                
+            } catch (error) {
+                result.innerHTML = `
+                    <div class="status error">
+                        ❌ Errore caricamento:<br>
+                        ${error.message}
+                    </div>
+                `;
+                
+                console.error('❌ Caricamento manuale fallito:', error);
+            }
+        }
+        
+        // ========================================
+        // AUTO-START
+        // ========================================
+        window.addEventListener('DOMContentLoaded', () => {
+            console.log('🔍 Pagina diagnostica caricata');
+            console.log('Esegui i test cliccando sui bottoni');
+        });
+    </script>
+</body>
+</html>

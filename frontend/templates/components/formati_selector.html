@@ -1,0 +1,139 @@
+<!-- ============================================= -->
+<!-- BOTTONI SELEZIONE FORMATO PIZZA -->
+<!-- ============================================= -->
+<div class="formati-container">
+    <div class="formati-header">
+        <h3>Formato Pizza</h3>
+        <p class="formati-subtitle">Seleziona il formato per tutte le pizze</p>
+    </div>
+    
+    <div class="formati-grid">
+        <!-- Formato Classica (default) -->
+        <button class="btn-formato active" data-formato="classica" type="button">
+            <div class="formato-icon">🍕</div>
+            <div class="formato-nome">Classica</div>
+            <div class="formato-desc">Prezzo base</div>
+        </button>
+        
+        <!-- Formato Baby -->
+        <button class="btn-formato" data-formato="baby" type="button">
+            <div class="formato-icon">🍕</div>
+            <div class="formato-nome">Baby</div>
+            <div class="formato-desc">-€2.00</div>
+        </button>
+        
+        <!-- Formato Maxi -->
+        <button class="btn-formato" data-formato="maxi" type="button">
+            <div class="formato-icon">🍕</div>
+            <div class="formato-nome">Maxi</div>
+            <div class="formato-desc">×2.5</div>
+        </button>
+        
+        <!-- Formato Tegamino -->
+        <button class="btn-formato" data-formato="tegamino" type="button">
+            <div class="formato-icon">🍕</div>
+            <div class="formato-nome">Tegamino</div>
+            <div class="formato-desc">+€1.00</div>
+        </button>
+        
+        <!-- Placeholder Trancio (disabilitato) -->
+        <button class="btn-formato" data-formato="trancio" type="button" disabled>
+            <div class="formato-icon">🍕</div>
+            <div class="formato-nome">Trancio</div>
+            <div class="formato-desc">Presto disponibile</div>
+        </button>
+        
+        <!-- Placeholder Teglia (disabilitato) -->
+        <button class="btn-formato" data-formato="teglia" type="button" disabled>
+            <div class="formato-icon">🍕</div>
+            <div class="formato-nome">Teglia</div>
+            <div class="formato-desc">Presto disponibile</div>
+        </button>
+    </div>
+</div>
+
+<style>
+/* Stili per i bottoni formato */
+.formati-container {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+}
+
+.formati-header {
+    margin-bottom: 1rem;
+}
+
+.formati-header h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.formati-subtitle {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.formati-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+}
+
+.btn-formato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-formato:hover:not(:disabled) {
+    border-color: #007bff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-formato.active {
+    border-color: #28a745;
+    background: #e8f5e9;
+}
+
+.btn-formato:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.formato-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.formato-nome {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    color: #333;
+}
+
+.formato-desc {
+    font-size: 0.75rem;
+    color: #666;
+}
+
+.btn-formato.active .formato-nome {
+    color: #28a745;
+}
+
+.btn-formato.active .formato-desc {
+    color: #28a745;
+    font-weight: bold;
+}
+</style>
