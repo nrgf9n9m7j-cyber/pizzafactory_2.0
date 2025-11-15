@@ -1,0 +1,204 @@
+Elenco del percorso delle cartelle per il volume Volume
+Numero di serie del volume: 6011-2A3A
+D:.
+³   .gitignore
+³   app.py
+³   README.md
+³   requirements.txt
+³   struttura.txt
+³   
+ÃÄÄÄconfig
+³   ³   database.py
+³   ³   logging.py
+³   ³   settings.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           settings.cpython-314.pyc
+³           __init__.cpython-314.pyc
+³           
+ÃÄÄÄcore
+³   ³   api.js
+³   ³   database.py
+³   ³   exceptions.py
+³   ³   state.js
+³   ³   utils_core.js
+³   ³   validators.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           database.cpython-314.pyc
+³           exceptions.cpython-314.pyc
+³           validators.cpython-314.pyc
+³           __init__.cpython-314.pyc
+³           
+ÃÄÄÄdata
+³       pizzeria.db
+³       
+ÃÄÄÄfrontend
+³   ÃÄÄÄstatic
+³   ³   ÃÄÄÄcss
+³   ³   ³   ³   base.css
+³   ³   ³   ³   clienti.css
+³   ³   ³   ³   dashboard.css
+³   ³   ³   ³   main.css
+³   ³   ³   ³   menu.css
+³   ³   ³   ³   ordini.css
+³   ³   ³   ³   
+³   ³   ³   ÃÄÄÄcomponents
+³   ³   ³   ³       modals.css
+³   ³   ³   ³       navbar.css
+³   ³   ³   ³       
+³   ³   ³   ÀÄÄÄpages
+³   ³   ³           ordini.css
+³   ³   ³           
+³   ³   ÀÄÄÄjs
+³   ³       ³   app.js
+³   ³       ³   clienti.js
+³   ³       ³   dashboard.js
+³   ³       ³   dividi_conto.js
+³   ³       ³   mappa.js
+³   ³       ³   menu.js
+³   ³       ³   modals.js
+³   ³       ³   ordini.js
+³   ³       ³   serata.js
+³   ³       ³   utils.js
+³   ³       ³   
+³   ³       ÃÄÄÄcore
+³   ³       ³       api.js
+³   ³       ³       state.js
+³   ³       ³       utils.js
+³   ³       ³       
+³   ³       ÀÄÄÄmodules
+³   ³           ÀÄÄÄordini
+³   ³                   carrello.js
+³   ³                   cliente.js
+³   ³                   form.js
+³   ³                   pizze.js
+³   ³                   totali.js
+³   ³                   
+³   ÀÄÄÄtemplates
+³       ³   base.html
+³       ³   base_OLD.html
+³       ³   calendario_presenze.html
+³       ³   index.html
+³       ³   index_OLD.html
+³       ³   index_OLD2.html
+³       ³   mappa_clienti.html
+³       ³   stampa_ordine.html
+³       ³   
+³       ÃÄÄÄcomponents
+³       ³   ³   header.html
+³       ³   ³   navbar.html
+³       ³   ³   
+³       ³   ÀÄÄÄmodals
+³       ³           modal_alert.html
+³       ³           
+³       ÀÄÄÄpages
+³               nuovo_ordine_content.html
+³               
+ÃÄÄÄlogs
+³       .gitkeep
+³       
+ÃÄÄÄmodules
+³   ³   __init__.py
+³   ³   
+³   ÃÄÄÄclienti
+³   ³   ³   model.py
+³   ³   ³   routes.py
+³   ³   ³   service.py
+³   ³   ³   validators.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           model.cpython-314.pyc
+³   ³           routes.cpython-314.pyc
+³   ³           service.cpython-314.pyc
+³   ³           validators.cpython-314.pyc
+³   ³           __init__.cpython-314.pyc
+³   ³           
+³   ÃÄÄÄdashboard
+³   ³   ³   model.py
+³   ³   ³   routes.py
+³   ³   ³   service.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           model.cpython-314.pyc
+³   ³           routes.cpython-314.pyc
+³   ³           __init__.cpython-314.pyc
+³   ³           
+³   ÃÄÄÄgeolocalizzazione
+³   ³       model.py
+³   ³       routes.py
+³   ³       service.py
+³   ³       __init__.py
+³   ³       
+³   ÃÄÄÄmenu
+³   ³   ³   model.py
+³   ³   ³   routes.py
+³   ³   ³   service.py
+³   ³   ³   validators.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           model.cpython-314.pyc
+³   ³           routes.cpython-314.pyc
+³   ³           service.cpython-314.pyc
+³   ³           __init__.cpython-314.pyc
+³   ³           
+³   ÃÄÄÄordini
+³   ³   ³   calcoli.py
+³   ³   ³   model.py
+³   ³   ³   routes.py
+³   ³   ³   service.py
+³   ³   ³   validators.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           calcoli.cpython-314.pyc
+³   ³           model.cpython-314.pyc
+³   ³           routes.cpython-314.pyc
+³   ³           service.cpython-314.pyc
+³   ³           __init__.cpython-314.pyc
+³   ³           
+³   ÃÄÄÄpagamenti
+³   ³   ³   model.py
+³   ³   ³   routes.py
+³   ³   ³   service.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           model.cpython-314.pyc
+³   ³           routes.cpython-314.pyc
+³   ³           __init__.cpython-314.pyc
+³   ³           
+³   ÃÄÄÄserata
+³   ³   ³   model.py
+³   ³   ³   routes.py
+³   ³   ³   service.py
+³   ³   ³   validators.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           model.cpython-314.pyc
+³   ³           routes.cpython-314.pyc
+³   ³           service.cpython-314.pyc
+³   ³           __init__.cpython-314.pyc
+³   ³           
+³   ÀÄÄÄ__pycache__
+³           __init__.cpython-314.pyc
+³           
+ÃÄÄÄscripts
+³       import_menu.py
+³       migration_xxx.py
+³       setup_database.py
+³       
+ÀÄÄÄtests
+        test_clienti.py
+        test_dashboard.py
+        test_menu.py
+        test_ordini.py
+        test_serata.py
+        __init__.py
+        
